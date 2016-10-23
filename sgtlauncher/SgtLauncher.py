@@ -2,6 +2,8 @@ import gi
 import sys
 import time
 
+from locale import gettext as _
+
 gi.require_version('Gtk', '3.0')
 gi.require_version('Gdk', '3.0')
 
@@ -17,7 +19,7 @@ from . import SgtSocketLauncher  # nopep8
 class MyWindow(Gtk.ApplicationWindow):
     def __init__(self, app, appname, settings, launchers):
         self.appname = appname
-        self.title = "SGT Puzzles"
+        self.title = _("SGT Puzzles Collection")
 
         Gtk.Window.__init__(self, title=self.title, application=app)
         self.set_title(self.title)
@@ -62,9 +64,10 @@ class MyWindow(Gtk.ApplicationWindow):
         """Initialize the in-game action buttons"""
         # Button definitions
         buttons = {
-            "new-game": ("New Game", "document-new-symbolic", 57, Gdk.KEY_n),
-            "undo": ("Undo", "edit-undo-symbolic", 30, Gdk.KEY_u),
-            "redo": ("Redo", "edit-redo-symbolic", 27, Gdk.KEY_r)
+            "new-game": (_("New Game"), "document-new-symbolic", 57,
+                         Gdk.KEY_n),
+            "undo": (_("Undo"), "edit-undo-symbolic", 30, Gdk.KEY_u),
+            "redo": (_("Redo"), "edit-redo-symbolic", 27, Gdk.KEY_r)
         }
 
         # Setup Action buttons
@@ -141,7 +144,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
         self.launching_image = Gtk.Image.new()
         self.launching_title = Gtk.Label.new()
-        self.launching_label = Gtk.Label.new("Please wait...")
+        self.launching_label = Gtk.Label.new(_("Please wait..."))
 
         spinner = Gtk.Spinner.new()
         spinner.start()
@@ -176,7 +179,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
     def launch(self, title, icon_name, path):
         """Launch the specified application"""
-        subtitle = "Loading " + title
+        subtitle = _("Loading %s") % title
 
         self.launching_image.set_from_icon_name(icon_name, Gtk.IconSize.DIALOG)
         self.launching_title.set_markup("<b>%s</b>" % title)
@@ -322,7 +325,7 @@ class MyAboutDialog(Gtk.AboutDialog):
 
 class MyApplication(Gtk.Application):
     APPNAME = "sgt-launcher"
-    TITLE = "SGT Puzzles"
+    TITLE = _("SGT Puzzles Collection")
     SETTINGS_KEY = "org.xubuntu.sgt-launcher"
     LAUNCHERS = [
         'sgt-blackbox.desktop',
@@ -377,9 +380,9 @@ class MyApplication(Gtk.Application):
         self.settings = Gio.Settings.new(self.SETTINGS_KEY)
 
         menu = Gio.Menu()
-        menu.append("Preferences", "app.show-preferences")
-        menu.append("About", "app.about")
-        menu.append("Quit", "app.quit")
+        menu.append(_("Preferences"), "app.show-preferences")
+        menu.append(_("About"), "app.about")
+        menu.append(_("Quit"), "app.quit")
         self.set_app_menu(menu)
 
         prefs_action = Gio.SimpleAction.new("show-preferences", None)

@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=SGT Puzzles Collection
+_GenericName=Collection of short puzzle games
+_Comment=Launcher for Simon Tatham's Portable Puzzle Collection
+Exec=sgt-launcher
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWmClass=sgt-launcher
+Icon=sgt-launcher
+Categories=Game;LogicGame;
