@@ -327,43 +327,43 @@ class MyApplication(Gtk.Application):
     APPNAME = "sgt-launcher"
     TITLE = _("SGT Puzzles Collection")
     SETTINGS_KEY = "org.xubuntu.sgt-launcher"
-    LAUNCHERS = [
-        'sgt-blackbox.desktop',
-        'sgt-bridges.desktop',
-        'sgt-cube.desktop',
-        'sgt-dominosa.desktop',
-        'sgt-fifteen.desktop',
-        'sgt-filling.desktop',
-        'sgt-flip.desktop',
-        'sgt-galaxies.desktop',
-        'sgt-guess.desktop',
-        'sgt-inertia.desktop',
-        'sgt-keen.desktop',
-        'sgt-lightup.desktop',
-        'sgt-loopy.desktop',
-        'sgt-magnets.desktop',
-        'sgt-map.desktop',
-        'sgt-mines.desktop',
-        'sgt-net.desktop',
-        'sgt-netslide.desktop',
-        'sgt-pattern.desktop',
-        'sgt-pearl.desktop',
-        'sgt-pegs.desktop',
-        'sgt-range.desktop',
-        'sgt-rect.desktop',
-        'sgt-samegame.desktop',
-        'sgt-signpost.desktop',
-        'sgt-singles.desktop',
-        'sgt-sixteen.desktop',
-        'sgt-slant.desktop',
-        'sgt-solo.desktop',
-        'sgt-tents.desktop',
-        'sgt-towers.desktop',
-        'sgt-twiddle.desktop',
-        'sgt-undead.desktop',
-        'sgt-unequal.desktop',
-        'sgt-unruly.desktop',
-        'sgt-untangle.desktop'
+    GAMES = [
+        'blackbox',
+        'bridges',
+        'cube',
+        'dominosa',
+        'fifteen',
+        'filling',
+        'flip',
+        'galaxies',
+        'guess',
+        'inertia',
+        'keen',
+        'lightup',
+        'loopy',
+        'magnets',
+        'map',
+        'mines',
+        'net',
+        'netslide',
+        'pattern',
+        'pearl',
+        'pegs',
+        'range',
+        'rect',
+        'samegame',
+        'signpost',
+        'singles',
+        'sixteen',
+        'slant',
+        'solo',
+        'tents',
+        'towers',
+        'twiddle',
+        'undead',
+        'unequal',
+        'unruly',
+        'untangle'
     ]
 
     def __init__(self):
@@ -411,17 +411,23 @@ class MyApplication(Gtk.Application):
 
     def get_launchers(self):
         """Get localized launcher contents"""
+        flags = GLib.KeyFileFlags.NONE
         launchers = []
-        for launcher in self.LAUNCHERS:
-            launcher = "applications/%s" % launcher
-            keyfile = GLib.KeyFile.new()
-            if (keyfile.load_from_data_dirs(launcher, GLib.KeyFileFlags.NONE)):
-                data = [
-                    keyfile.get_value("Desktop Entry", "Name"),
-                    keyfile.get_value("Desktop Entry", "Comment"),
-                    keyfile.get_value("Desktop Entry", "Icon"),
-                    keyfile.get_value("Desktop Entry", "Exec"),
-                ]
-                launchers.append(data)
+        for game in self.GAMES:
+            for prefix in ["sgt", "puzzle"]:
+                launcher = "applications/%s-%s.desktop" % (prefix, game)
+                keyfile = GLib.KeyFile.new()
+                try:
+                    if (keyfile.load_from_data_dirs(launcher, flags)):
+                        data = [
+                            keyfile.get_value("Desktop Entry", "Name"),
+                            keyfile.get_value("Desktop Entry", "Comment"),
+                            keyfile.get_value("Desktop Entry", "Icon"),
+                            keyfile.get_value("Desktop Entry", "Exec"),
+                        ]
+                        launchers.append(data)
+                    break
+                except GLib.Error:
+                    pass
         launchers.sort()
         return launchers
