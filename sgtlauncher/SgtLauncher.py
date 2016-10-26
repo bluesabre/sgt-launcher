@@ -1,4 +1,5 @@
 import gi
+import os
 import sys
 import time
 
@@ -103,6 +104,10 @@ class MyWindow(Gtk.ApplicationWindow):
         for launcher in launchers:
             listmodel.append(launcher)
 
+        icon_format = "icon-name"
+        if os.path.isfile(launchers[0][2]):
+            icon_form
+
         # Initialize the treeview
         view = Gtk.TreeView(model=listmodel)
         view.set_headers_visible(False)
@@ -124,6 +129,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
         # Draw custom cell
         col.set_cell_data_func(text, self.treeview_cell_text_func, None)
+        col.set_cell_data_func(pixbuf, self.treeview_cell_pixbuf_func, None)
 
         # Add the column and enable typeahead
         view.append_column(col)
@@ -284,6 +290,14 @@ class MyWindow(Gtk.ApplicationWindow):
         name, comment, icon_name, exe = model[treeiter][:]
         markup = "<b>%s</b>\n%s" % (name, comment)
         renderer.set_property('markup', markup)
+        return
+
+    def treeview_cell_pixbuf_func(self, col, renderer, model, treeiter, data):
+        """Render the treeview row"""
+        name, comment, icon_name, exe = model[treeiter][:]
+        if os.path.isfile(icon_name):
+            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size(icon_name, 48, 48)
+            renderer.set_property("pixbuf", pixbuf)
         return
 
     def on_activated(self, widget, treeiter, col):
