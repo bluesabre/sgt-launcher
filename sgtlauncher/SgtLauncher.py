@@ -9,6 +9,7 @@ gi.require_version('Gtk', '3.0')
 gi.require_version('Gdk', '3.0')
 
 from gi.repository import Gdk  # nopep8
+from gi.repository import GdkPixbuf  # nopep8
 from gi.repository import Gtk  # nopep8
 from gi.repository import Gio  # nopep8
 from gi.repository import GLib  # nopep8
@@ -183,7 +184,11 @@ class MyWindow(Gtk.ApplicationWindow):
         """Launch the specified application"""
         subtitle = _("Loading %s") % title
 
-        self.launching_image.set_from_icon_name(icon_name, Gtk.IconSize.DIALOG)
+        if os.path.isfile(icon_name):
+            self.launching_image.set_from_file(icon_name)
+        else:
+            self.launching_image.set_from_icon_name(icon_name,
+                                                    Gtk.IconSize.DIALOG)
         self.launching_title.set_markup("<b>%s</b>" % title)
         self.set_view("loading", icon_name, subtitle)
 
@@ -245,7 +250,11 @@ class MyWindow(Gtk.ApplicationWindow):
         else:
             title = "%s - %s" % (title, subtitle)
 
-        self.set_default_icon_name(icon_name)
+        if os.path.isfile(icon_name):
+            self.set_default_icon_from_file(icon_name)
+        else:
+            self.set_default_icon_name(icon_name)
+
         self.set_subtitle(subtitle)
         self.stack.set_visible_child_name(name)
 
