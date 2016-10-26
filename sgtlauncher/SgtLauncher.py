@@ -104,10 +104,6 @@ class MyWindow(Gtk.ApplicationWindow):
         for launcher in launchers:
             listmodel.append(launcher)
 
-        icon_format = "icon-name"
-        if os.path.isfile(launchers[0][2]):
-            icon_form
-
         # Initialize the treeview
         view = Gtk.TreeView(model=listmodel)
         view.set_headers_visible(False)
