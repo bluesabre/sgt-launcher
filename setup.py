@@ -120,7 +120,7 @@ def build_launchers():
                 except GLib.Error:
                     pass
 
-    sys.argv.remove("--build-launchers")
+        sys.argv.remove("--build-launchers")
 
 
 def get_data_files():
