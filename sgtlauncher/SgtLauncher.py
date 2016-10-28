@@ -331,6 +331,9 @@ class MyAboutDialog(Gtk.AboutDialog):
             "Simon Tatham's Portable Puzzle Collection\n"
             "© 2004-2012 Simon Tatham"
         )
+        self.set_artists([
+            "Pasi Lallinaho"
+        ])
         self.set_website("https://launchpad.net/sgt-launcher")
         self.set_website_label("SGT Puzzle Launcher on Launchpad")
         self.set_license_type(Gtk.License.GPL_3_0)
