@@ -7,6 +7,8 @@ import site
 from setuptools import setup, find_packages
 from setuptools.command.install import install as _install
 
+from gi.repository import GLib
+
 
 def get_installation_prefix(install_dir):
     py_version = '%s.%s' % (sys.version_info[0], sys.version_info[1])
@@ -59,8 +61,71 @@ def get_translations():
     return files
 
 
+def build_launchers():
+    applications_dir = "build/applications/"
+    if not os.path.exists(applications_dir):
+        os.makedirs(applications_dir)
+
+    if '--build-launchers' in sys.argv:
+        games = [
+            'blackbox',
+            'bridges',
+            'cube',
+            'dominosa',
+            'fifteen',
+            'filling',
+            'flip',
+            'galaxies',
+            'guess',
+            'inertia',
+            'keen',
+            'lightup',
+            'loopy',
+            'magnets',
+            'map',
+            'mines',
+            'net',
+            'netslide',
+            'pattern',
+            'pearl',
+            'pegs',
+            'range',
+            'rect',
+            'samegame',
+            'signpost',
+            'singles',
+            'sixteen',
+            'slant',
+            'solo',
+            'tents',
+            'towers',
+            'twiddle',
+            'undead',
+            'unequal',
+            'unruly',
+            'untangle'
+        ]
+        flags = GLib.KeyFileFlags.KEEP_TRANSLATIONS
+        for game in games:
+            for prefix in ["sgt", "puzzle"]:
+                desktop = "%s-%s.desktop" % (prefix, game)
+                launcher = "applications/%s" % desktop
+                keyfile = GLib.KeyFile.new()
+                try:
+                    if (keyfile.load_from_data_dirs(launcher, flags)):
+                        keyfile.set_value("Desktop Entry", "NoDisplay", "true")
+                        keyfile.save_to_file("%s%s" % (applications_dir,
+                                                       desktop))
+                    break
+                except GLib.Error:
+                    pass
+
+    sys.argv.remove("--build-launchers")
+
+
 def get_data_files():
     translations = get_translations()
+    build_launchers()
 
     my_data_files = [
         ('share/icons/hicolor/scalable/apps/',
