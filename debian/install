@@ -1,1 +1,1 @@
-build/applications/sgt-blackbox.desktop usr/share/applications/sgt-blackbox.desktop
+build/applications/*.desktop usr/share/applications

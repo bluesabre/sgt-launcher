@@ -1,4 +1,74 @@
 if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" ]; then
     dpkg-divert --package sgt-launcher --remove --rename \
        --divert /usr/share/applications/sgt-blackbox.desktop.orig /usr/share/applications/sgt-blackbox.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-bridges.desktop.orig /usr/share/applications/sgt-bridges.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-cube.desktop.orig /usr/share/applications/sgt-cube.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-dominosa.desktop.orig /usr/share/applications/sgt-dominosa.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-fifteen.desktop.orig /usr/share/applications/sgt-fifteen.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-filling.desktop.orig /usr/share/applications/sgt-filling.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-flip.desktop.orig /usr/share/applications/sgt-flip.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-galaxies.desktop.orig /usr/share/applications/sgt-galaxies.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-guess.desktop.orig /usr/share/applications/sgt-guess.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-inertia.desktop.orig /usr/share/applications/sgt-inertia.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-keen.desktop.orig /usr/share/applications/sgt-keen.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-lightup.desktop.orig /usr/share/applications/sgt-lightup.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-loopy.desktop.orig /usr/share/applications/sgt-loopy.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-magnets.desktop.orig /usr/share/applications/sgt-magnets.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-map.desktop.orig /usr/share/applications/sgt-map.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-mines.desktop.orig /usr/share/applications/sgt-mines.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-net.desktop.orig /usr/share/applications/sgt-net.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-netslide.desktop.orig /usr/share/applications/sgt-netslide.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-pattern.desktop.orig /usr/share/applications/sgt-pattern.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-pearl.desktop.orig /usr/share/applications/sgt-pearl.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-pegs.desktop.orig /usr/share/applications/sgt-pegs.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-range.desktop.orig /usr/share/applications/sgt-range.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-rect.desktop.orig /usr/share/applications/sgt-rect.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-samegame.desktop.orig /usr/share/applications/sgt-samegame.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-signpost.desktop.orig /usr/share/applications/sgt-signpost.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-singles.desktop.orig /usr/share/applications/sgt-singles.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-sixteen.desktop.orig /usr/share/applications/sgt-sixteen.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-slant.desktop.orig /usr/share/applications/sgt-slant.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-solo.desktop.orig /usr/share/applications/sgt-solo.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-tents.desktop.orig /usr/share/applications/sgt-tents.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-towers.desktop.orig /usr/share/applications/sgt-towers.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-twiddle.desktop.orig /usr/share/applications/sgt-twiddle.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-undead.desktop.orig /usr/share/applications/sgt-undead.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-unequal.desktop.orig /usr/share/applications/sgt-unequal.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-unruly.desktop.orig /usr/share/applications/sgt-unruly.desktop
+    dpkg-divert --package sgt-launcher --remove --rename \
+       --divert /usr/share/applications/sgt-untangle.desktop.orig /usr/share/applications/sgt-untangle.desktop
 fi
