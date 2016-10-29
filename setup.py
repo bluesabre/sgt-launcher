@@ -10,6 +10,9 @@ from setuptools.command.install import install as _install
 from gi.repository import GLib
 
 
+print(str(sys.argv))
+
+
 def get_installation_prefix(install_dir):
     py_version = '%s.%s' % (sys.version_info[0], sys.version_info[1])
     if '--user' in sys.argv:
@@ -67,6 +70,7 @@ def build_launchers():
         os.makedirs(applications_dir)
 
     if '--build-launchers' in sys.argv:
+        print("building launchers")
         games = [
             'blackbox',
             'bridges',
