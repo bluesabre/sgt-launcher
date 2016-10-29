@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-28 22:38-0400\n"
+"POT-Creation-Date: 2016-10-29 06:40-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,14 +51,14 @@ msgstr ""
 msgid "Loading %s"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:418
+#: ../sgtlauncher/SgtLauncher.py:421
 msgid "Preferences"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:419
+#: ../sgtlauncher/SgtLauncher.py:422
 msgid "About"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:420
+#: ../sgtlauncher/SgtLauncher.py:423
 msgid "Quit"
 msgstr ""
