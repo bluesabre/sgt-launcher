@@ -12,32 +12,10 @@
 #   You should have received a copy of the GNU General Public License along
 #   with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import optparse
-import sys
+'''facade - makes menulibre_lib package easy to refactor
 
-from locale import gettext as _
-
-from sgtlauncher import SgtLauncher
-
-from sgtlauncher_lib import set_up_logging, get_version
-
-
-def parse_options():
-    """Support for command line options"""
-    parser = optparse.OptionParser(version="%%prog %s" % get_version())
-    parser.add_option(
-        "-v", "--verbose", action="count", dest="verbose",
-        help=_("Show debug messages"))
-    (options, args) = parser.parse_args()
-
-    set_up_logging(options)
-
-
-def main():
-    """Main application for SGT Launcher"""
-    parse_options()
-
-    # Run the application.
-    app = SgtLauncher.MyApplication()
-    exit_status = app.run(None)
-    sys.exit(exit_status)
+while keeping its api constant'''
+# lint:disable
+from . helpers import get_builder, set_up_logging, show_uri
+from . sgtlauncherconfig import get_version
+# lint:enable

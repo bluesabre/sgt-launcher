@@ -1,3 +1,17 @@
+# -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
+#
+#   This program is free software: you can redistribute it and/or modify it
+#   under the terms of the GNU General Public License version 3, as published
+#   by the Free Software Foundation.
+#
+#   This program is distributed in the hope that it will be useful, but
+#   WITHOUT ANY WARRANTY; without even the implied warranties of
+#   MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR
+#   PURPOSE.  See the GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License along
+#   with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 import gi
 import os
 import sys
@@ -16,10 +30,11 @@ from gi.repository import GLib  # nopep8
 from gi.repository import Pango  # nopep8
 
 from . import SgtSocketLauncher  # nopep8
+import sgtlauncher_lib  # nopep8
 
 
 class MyWindow(Gtk.ApplicationWindow):
-    def __init__(self, app, appname, settings, launchers):
+    def __init__(self, app, appname, launchers):
         self.appname = appname
         self.title = _("SGT Puzzles Collection")
 
@@ -337,6 +352,7 @@ class MyAboutDialog(Gtk.AboutDialog):
         self.set_website("https://launchpad.net/sgt-launcher")
         self.set_website_label("SGT Puzzle Launcher on Launchpad")
         self.set_license_type(Gtk.License.GPL_3_0)
+        self.set_version(sgtlauncher_lib.get_version())
 
         self.connect("response", self.on_response)
 
@@ -348,7 +364,6 @@ class MyAboutDialog(Gtk.AboutDialog):
 class MyApplication(Gtk.Application):
     APPNAME = "sgt-launcher"
     TITLE = _("SGT Puzzles Collection")
-    SETTINGS_KEY = "org.xubuntu.sgt-launcher"
     GAMES = [
         'blackbox',
         'bridges',
@@ -393,13 +408,11 @@ class MyApplication(Gtk.Application):
 
     def do_activate(self):
         launchers = self.get_launchers()
-        self.win = MyWindow(self, self.APPNAME, self.settings, launchers)
+        self.win = MyWindow(self, self.APPNAME, launchers)
         self.win.show_all()
 
     def do_startup(self):
         Gtk.Application.do_startup(self)
-
-        self.settings = Gio.Settings.new(self.SETTINGS_KEY)
 
         menu = Gio.Menu()
         menu.append(_("Preferences"), "app.show-preferences")
