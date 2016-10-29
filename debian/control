@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
 Uploaders: Sean Davis <smd.seandavis@gmail.com>
 Build-Depends: debhelper (>= 9),
- python3, python3-setuptools
+ python3, python3-setuptools, sgt-puzzles
 Standards-Version: 3.9.8
 Homepage: https://launchpad.net/sgt-launcher
 
