@@ -14,6 +14,8 @@ if [ upgrade != "$1" ] || dpkg --compare-versions "$2" lt 1.0-2; then
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-flip.desktop.orig /usr/share/applications/sgt-flip.desktop
     dpkg-divert --package sgt-launcher --add --rename \
+       --divert /usr/share/applications/sgt-flood.desktop.orig /usr/share/applications/sgt-flood.desktop
+    dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-galaxies.desktop.orig /usr/share/applications/sgt-galaxies.desktop
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-guess.desktop.orig /usr/share/applications/sgt-guess.desktop
@@ -35,6 +37,8 @@ if [ upgrade != "$1" ] || dpkg --compare-versions "$2" lt 1.0-2; then
        --divert /usr/share/applications/sgt-net.desktop.orig /usr/share/applications/sgt-net.desktop
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-netslide.desktop.orig /usr/share/applications/sgt-netslide.desktop
+    dpkg-divert --package sgt-launcher --add --rename \
+       --divert /usr/share/applications/sgt-palisade.desktop.orig /usr/share/applications/sgt-palisade.desktop
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-pattern.desktop.orig /usr/share/applications/sgt-pattern.desktop
     dpkg-divert --package sgt-launcher --add --rename \
@@ -61,6 +65,8 @@ if [ upgrade != "$1" ] || dpkg --compare-versions "$2" lt 1.0-2; then
        --divert /usr/share/applications/sgt-tents.desktop.orig /usr/share/applications/sgt-tents.desktop
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-towers.desktop.orig /usr/share/applications/sgt-towers.desktop
+    dpkg-divert --package sgt-launcher --add --rename \
+       --divert /usr/share/applications/sgt-tracks.desktop.orig /usr/share/applications/sgt-tracks.desktop
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-twiddle.desktop.orig /usr/share/applications/sgt-twiddle.desktop
     dpkg-divert --package sgt-launcher --add --rename \
