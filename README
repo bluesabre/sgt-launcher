@@ -1,1 +1,23 @@
+SGT Puzzles Collection
 
+This application provides a single launcher for all the games in
+Simon Tatham's Portable Puzzle Collection. It wraps each game
+within the launcher window and seeks to add additional value
+to the games by adding accessible controls and new features.
+
+This application has been tested in Ubuntu 16.10 and later as
+well as Fedora 24.
+
+Dependencies: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0,
+ gir1.2-gtk-3.0, python3-gi (>= 3.0), python3-xcffib,
+ sgt-puzzles
+
+Installation:
+ 1. Install requirements. For Debian-based systems, this should suffice:
+    sudo apt-get install gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0 \
+    gir1.2-gtk-3.0 python3 python3-gi python3-xcffib sgt-puzzles
+ 2. Run the installer:
+    sudo python3 setup.py install
+
+Please report comments, suggestions, and bugs to:
+ https://launchpad.net/sgt-launcher
