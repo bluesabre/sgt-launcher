@@ -2,8 +2,9 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 #   This program is free software: you can redistribute it and/or modify it
-#   under the terms of the GNU General Public License version 3, as published
-#   by the Free Software Foundation.
+#   under the terms of the under the terms of the GNU General Public License 
+#   as published by the Free Software Foundation, either version 3 of the 
+#   License, or (at your option) any later version.
 #
 #   This program is distributed in the hope that it will be useful, but
 #   WITHOUT ANY WARRANTY; without even the implied warranties of
@@ -250,7 +251,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
 DistUtilsExtra.auto.setup(
     name='sgt-launcher',
     version='0.1',
-    license='GPL-3',
+    license='GPL-3+',
     author='Sean Davis',
     author_email='smd.seandavis@gmail.com',
     description='Launcher for Simon Tatham\'s Portable Puzzle Collection',

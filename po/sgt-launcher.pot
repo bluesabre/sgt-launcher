@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-08 05:45-0500\n"
+"POT-Creation-Date: 2016-12-08 06:43-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:366
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:40
+#: ../sgtlauncher/SgtLauncher.py:367
 msgid "SGT Puzzles Collection"
 msgstr ""
 
@@ -30,35 +30,35 @@ msgstr ""
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:84
+#: ../sgtlauncher/SgtLauncher.py:85
 msgid "New Game"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:86
+#: ../sgtlauncher/SgtLauncher.py:87
 msgid "Undo"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:87
+#: ../sgtlauncher/SgtLauncher.py:88
 msgid "Redo"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:165
+#: ../sgtlauncher/SgtLauncher.py:166
 msgid "Please wait..."
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:200
+#: ../sgtlauncher/SgtLauncher.py:201
 #, python-format
 msgid "Loading %s"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:421
+#: ../sgtlauncher/SgtLauncher.py:422
 msgid "Preferences"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:422
+#: ../sgtlauncher/SgtLauncher.py:423
 msgid "About"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:423
+#: ../sgtlauncher/SgtLauncher.py:424
 msgid "Quit"
 msgstr ""

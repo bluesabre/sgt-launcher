@@ -1,8 +1,9 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 #   This program is free software: you can redistribute it and/or modify it
-#   under the terms of the GNU General Public License version 3, as published
-#   by the Free Software Foundation.
+#   under the terms of the under the terms of the GNU General Public License 
+#   as published by the Free Software Foundation, either version 3 of the 
+#   License, or (at your option) any later version.
 #
 #   This program is distributed in the hope that it will be useful, but
 #   WITHOUT ANY WARRANTY; without even the implied warranties of
@@ -21,7 +22,7 @@ __all__ = [
 # Where your project will look for your data (for instance, images and ui
 # files). By default, this is ../data, relative your trunk layout
 __sgtlauncher_data_directory__ = '../data/'
-__license__ = 'GPL-3'
+__license__ = 'GPL-3+'
 __version__ = '0.1'
 
 import os  # nopep8
