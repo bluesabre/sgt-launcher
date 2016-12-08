@@ -210,7 +210,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
                 os.sep
             target_pkgdata = os.path.join(target_data, 'share', 'sgt-launcher',
                                           '')
-            target_scripts = os.path.join(self.install_scripts, '')
+            target_scripts = os.path.join(self.install_scripts, '..', 'games')
 
             data_dir = os.path.join(self.prefix, 'share', 'sgt-launcher', '')
             script_path = os.path.join(self.prefix, 'bin')
@@ -220,7 +220,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
             target_data = os.path.relpath(self.install_data) + os.sep
             target_pkgdata = os.path.join(target_data, 'share', 'sgt-launcher',
                                           '')
-            target_scripts = os.path.join(self.install_scripts, '')
+            target_scripts = os.path.join(self.install_scripts, '..', 'games')
 
             # Use absolute paths
             target_data = os.path.realpath(target_data)
@@ -258,6 +258,9 @@ DistUtilsExtra.auto.setup(
                      'This application wraps the games into an all-in-one '
                      'launcher and game suite.',
     url='https://launchpad.net/sgt-launcher',
-    data_files=[('share/man/man1', ['sgt-launcher.1'])],
+    data_files=[
+        ('games', ['bin/sgt-launcher']),
+        ('share/man/man1', ['sgt-launcher.1'])
+    ],
     cmdclass={'install': InstallAndUpdateDataDirectory}
     )
