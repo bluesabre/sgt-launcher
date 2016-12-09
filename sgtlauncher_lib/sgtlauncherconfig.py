@@ -23,7 +23,7 @@ __all__ = [
 # files). By default, this is ../data, relative your trunk layout
 __sgtlauncher_data_directory__ = '../data/'
 __license__ = 'GPL-3+'
-__version__ = '0.2'
+__version__ = '0.2.1'
 
 import os  # nopep8
 
