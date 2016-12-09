@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-08 06:43-0500\n"
+"POT-Creation-Date: 2016-12-08 19:35-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgstr ""
 
 #: ../sgt-launcher.desktop.in.h:3
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr ""
+
+#: ../sgt-launcher.desktop.in.h:4
+msgid "Games;Puzzles;"
 msgstr ""
 
 #: ../sgtlauncher/SgtLauncher.py:85

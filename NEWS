@@ -1,5 +1,13 @@
 SGT Puzzles Collection (sgt-launcher)                                      NEWS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+08 Dec 2016, SGT Puzzles Collection 0.2
+
+- Install to PREFIX/games
+- Improved manpage
+- Add keywords to desktop file
+- Upgraded license to GPL-3 or newer
+
+
 03 Nov 2016, SGT Puzzles Collection 0.1
 
 - Initial release
