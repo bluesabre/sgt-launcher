@@ -1,9 +1,9 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 #   This program is free software: you can redistribute it and/or modify it
-#   under the terms of the under the terms of the GNU General Public License
-#   as published by the Free Software Foundation, either version 3 of the
-#   License, or (at your option) any later version.
+#   under the terms of the GNU General Public License as published by the
+#   Free Software Foundation, either version 3 of the License, or
+#   (at your option) any later version.
 #
 #   This program is distributed in the hope that it will be useful, but
 #   WITHOUT ANY WARRANTY; without even the implied warranties of
@@ -342,7 +342,7 @@ class MyAboutDialog(Gtk.AboutDialog):
         ])
         self.set_copyright(
             "SGT Puzzles\n"
-            "© 2016 Sean Davis\n"
+            "© 2016-2017 Sean Davis\n"
             "\n"
             "Simon Tatham's Portable Puzzle Collection\n"
             "© 2004-2012 Simon Tatham"
