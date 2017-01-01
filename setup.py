@@ -2,8 +2,8 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 #   This program is free software: you can redistribute it and/or modify it
-#   under the terms of the under the terms of the GNU General Public License 
-#   as published by the Free Software Foundation, either version 3 of the 
+#   under the terms of the under the terms of the GNU General Public License
+#   as published by the Free Software Foundation, either version 3 of the
 #   License, or (at your option) any later version.
 #
 #   This program is distributed in the hope that it will be useful, but
@@ -214,7 +214,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
             target_scripts = os.path.join(self.install_scripts, '..', 'games')
 
             data_dir = os.path.join(self.prefix, 'share', 'sgt-launcher', '')
-            script_path = os.path.join(self.prefix, 'bin')
+            script_path = os.path.join(self.prefix, 'games')
         else:
             # --user install
             self.root = ''
