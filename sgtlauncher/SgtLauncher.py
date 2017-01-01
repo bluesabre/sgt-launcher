@@ -1,8 +1,8 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 #   This program is free software: you can redistribute it and/or modify it
-#   under the terms of the under the terms of the GNU General Public License 
-#   as published by the Free Software Foundation, either version 3 of the 
+#   under the terms of the under the terms of the GNU General Public License
+#   as published by the Free Software Foundation, either version 3 of the
 #   License, or (at your option) any later version.
 #
 #   This program is distributed in the hope that it will be useful, but
@@ -448,6 +448,18 @@ class MyApplication(Gtk.Application):
         """Exit application"""
         self.quit()
 
+    def exists_in_path(self, binary):
+        realpath = os.path.realpath(binary)
+        if os.path.exists(realpath):
+            return True
+        paths = (os.environ.get("PATH")).split(":")
+        paths.reverse()
+        for path in paths:
+            fullpath = os.path.join(path, binary)
+            if (os.path.exists(fullpath)):
+                return True
+        return False
+
     def get_launchers(self):
         """Get localized launcher contents"""
         flags = GLib.KeyFileFlags.NONE
@@ -464,7 +476,8 @@ class MyApplication(Gtk.Application):
                             keyfile.get_value("Desktop Entry", "Icon"),
                             keyfile.get_value("Desktop Entry", "Exec"),
                         ]
-                        launchers.append(data)
+                        if self.exists_in_path(data[3]):
+                            launchers.append(data)
                     break
                 except GLib.Error:
                     pass
