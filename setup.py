@@ -211,7 +211,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
                 os.sep
             target_pkgdata = os.path.join(target_data, 'share', 'sgt-launcher',
                                           '')
-            target_scripts = os.path.join(self.install_scripts, '..', 'games')
+            target_scripts = os.path.join(target_data, 'games')
 
             data_dir = os.path.join(self.prefix, 'share', 'sgt-launcher', '')
             script_path = os.path.join(self.prefix, 'games')
@@ -221,7 +221,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
             target_data = os.path.relpath(self.install_data) + os.sep
             target_pkgdata = os.path.join(target_data, 'share', 'sgt-launcher',
                                           '')
-            target_scripts = os.path.join(self.install_scripts, '..', 'games')
+            target_scripts = os.path.join(target_data, 'games')
 
             # Use absolute paths
             target_data = os.path.realpath(target_data)
