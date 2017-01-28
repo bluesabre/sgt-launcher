@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Sean Davis <smd.seandavis@gmail.com> -->
+<component type="desktop-application">
+​  <id>sgt-launcher.desktop</id>
+​  <metadata_license>CC0-1.0</metadata_license>
+​  <project_license>GPL-3.0+</project_license>
+​  <name>SGT Puzzles Collection</name>
+​  <_summary>Launcher for Simon Tatham's Portable Puzzle Collection</_summary>
+​
+​  <description>
+​    <_p>SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's Portable Puzzle Collection.</_p>
+​    <_p>The collection is presented as a related but diverse set of logic games. Each game is displayed in the launcher window with simplified controls.</_p>
+​  </description>
+​
+​  <screenshots>
+​    <screenshot type="default">
+​      <_caption>The launcher window</_caption>
+​      <image>https://screenshots.smdavis.us/sgt-launcher/sgt-launcher-01.png</image>
+​    </screenshot>
+​    <screenshot>
+      <_caption>Playing a short game of Galaxies</_caption>
+​      <image>https://screenshots.smdavis.us/sgt-launcher/sgt-launcher-02.png</image>
+​    </screenshot>
+​  </screenshots>
+​
+​  <url type="homepage">https://launchpad.net/sgt-launcher</url>
+​
+​  <provides>
+​    <binary>sgt-launcher</binary>
+​  </provides>
+​
+​  <releases>
+​    <release version="0.2.2" date="2017-01-28">
+​      <description>
+​        <_p>Non-existent launchers are no longer displayed. The application launcher now links to the correct binary.</_p>
+​      </description>
+​    </release>
+​  </releases>
+​</component>

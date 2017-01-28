@@ -16,6 +16,7 @@
 
 import os
 import sys
+import subprocess
 
 from gi.repository import GLib
 
@@ -191,6 +192,34 @@ def update_desktop_file(filename, script_path):
         sys.exit(1)
 
 
+def write_appdata_file(filename_in):
+    filename_out = filename_in.rstrip('.in')
+    cmd = ["intltool-merge", "-x", "-d", "po", filename_in, filename_out]
+    print(" ".join(cmd))
+    subprocess.call(cmd, shell=False)
+
+
+def remove_appdata_in(root, target_data):
+    appdata_directory = os.path.normpath(
+            os.path.join(root, target_data, 'share', 'sgt-launcher',
+                         'appdata'))
+    if not os.path.exists(appdata_directory):
+        return
+
+    appdata_in = os.path.join(appdata_directory,
+                              "sgt-launcher.appdata.xml.in")
+    if os.path.exists(appdata_in):
+        os.remove(appdata_in)
+
+    if len(os.listdir(appdata_directory)) == 0:
+        print(("Removing empty directory: %s" % appdata_directory))
+        os.rmdir(appdata_directory)
+
+
+# Update AppData with latest translations first.
+write_appdata_file("data/appdata/sgt-launcher.appdata.xml.in")
+
+# Build the replacement launchers
 build_launchers()
 
 
@@ -247,10 +276,11 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
         print(("Desktop File: %s\n" % desktop_file))
         move_icon_file(self.root, target_data, self.prefix)
         update_desktop_file(desktop_file, script_path)
+        remove_appdata_in(self.root, target_data)
 
 DistUtilsExtra.auto.setup(
     name='sgt-launcher',
-    version='0.2.1',
+    version='0.2.2',
     license='GPL-3+',
     author='Sean Davis',
     author_email='smd.seandavis@gmail.com',
@@ -261,7 +291,8 @@ DistUtilsExtra.auto.setup(
     url='https://launchpad.net/sgt-launcher',
     data_files=[
         ('games', ['bin/sgt-launcher']),
-        ('share/man/man1', ['sgt-launcher.1'])
+        ('share/man/man1', ['sgt-launcher.1']),
+        ('share/appdata', ['data/appdata/sgt-launcher.appdata.xml'])
     ],
     cmdclass={'install': InstallAndUpdateDataDirectory}
     )
