@@ -1,5 +1,12 @@
 SGT Puzzles Collection (sgt-launcher)                                      NEWS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+29 Jan 2017, SGT Puzzles Collection 0.2.2
+
+- Do not display non-existent launchers
+- Link the launcher to the correct binary when packaged
+- Add AppStream data
+
+
 08 Dec 2016, SGT Puzzles Collection 0.2.1
 
 - Fix typo in sgt-launcher.desktop

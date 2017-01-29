@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-28 16:20-0500\n"
+"POT-Creation-Date: 2017-01-29 09:05-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,7 @@ msgid "Collection of short puzzle games"
 msgstr ""
 
 #: ../sgt-launcher.desktop.in.h:3
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr ""
 
@@ -65,4 +66,30 @@ msgstr ""
 
 #: ../sgtlauncher/SgtLauncher.py:424
 msgid "Quit"
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now "
+"links to the correct binary."
 msgstr ""

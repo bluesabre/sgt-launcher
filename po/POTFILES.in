@@ -4,3 +4,5 @@ sgt-launcher.desktop.in
 # Python Files
 sgtlauncher/SgtLauncher.py
 
+# XML Files
+[type: gettext/xml]data/appdata/sgt-launcher.appdata.xml.in

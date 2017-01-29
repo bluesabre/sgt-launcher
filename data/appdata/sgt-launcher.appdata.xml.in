@@ -30,7 +30,7 @@
 ​  </provides>
 ​
 ​  <releases>
-​    <release version="0.2.2" date="2017-01-28">
+​    <release version="0.2.2" date="2017-01-29">
 ​      <description>
 ​        <_p>Non-existent launchers are no longer displayed. The application launcher now links to the correct binary.</_p>
 ​      </description>
