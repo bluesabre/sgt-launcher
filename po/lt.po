@@ -1,0 +1,102 @@
+# Lithuanian translation for sgt-launcher
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the sgt-launcher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sgt-launcher\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-01-29 09:05-0500\n"
+"PO-Revision-Date: 2017-02-28 15:39+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-03-01 06:22+0000\n"
+"X-Generator: Launchpad (build 18329)\n"
+
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:40
+#: ../sgtlauncher/SgtLauncher.py:367
+msgid "SGT Puzzles Collection"
+msgstr "SGT galvosūkių kolekcija"
+
+#: ../sgt-launcher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Trumpų galvosūkių žaidimų kolekcija"
+
+#: ../sgt-launcher.desktop.in.h:3
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "Leistukas, skirtas Simon'o Tatham'o perkeliamų galvosūkių kolekcijai"
+
+#: ../sgt-launcher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Žaidimai;Galvosūkiai;"
+
+#: ../sgtlauncher/SgtLauncher.py:85
+msgid "New Game"
+msgstr "Naujas žaidimas"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "Undo"
+msgstr "Atšaukti"
+
+#: ../sgtlauncher/SgtLauncher.py:88
+msgid "Redo"
+msgstr "Pakartoti"
+
+#: ../sgtlauncher/SgtLauncher.py:166
+msgid "Please wait..."
+msgstr "Prašome palaukti..."
+
+#: ../sgtlauncher/SgtLauncher.py:201
+#, python-format
+msgid "Loading %s"
+msgstr "Įkeliama %s"
+
+#: ../sgtlauncher/SgtLauncher.py:422
+msgid "Preferences"
+msgstr "Nuostatos"
+
+#: ../sgtlauncher/SgtLauncher.py:423
+msgid "About"
+msgstr "Apie"
+
+#: ../sgtlauncher/SgtLauncher.py:424
+msgid "Quit"
+msgstr "Išeiti"
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"SGT galvosūkių kolekcija yra paprastas naudoti leistukas, skirtas Simon'o "
+"Tatham'o perkeliamų galvosūkių kolekcijai."
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"Kolekcija yra pateikiama kaip susijusių, tačiau įvairialypių loginių žaidimų "
+"rinkinys. Kiekvienas žaidimas yra rodomas leistuko lange su supaprastintais "
+"valdikliais."
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "Leistuko langas"
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Žaidžiamas trumpas \"Galaxies\" žaidimas"
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now "
+"links to the correct binary."
+msgstr ""
+"Leistukai, kurių nėra, daugiau neberodomi. Programos leistukas dabar susieja "
+"su teisinga dvejetaine."
