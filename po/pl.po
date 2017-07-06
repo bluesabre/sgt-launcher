@@ -6,14 +6,14 @@ msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: <m4sk1n@vivaldi.net>, m4sk1n on Freenode\n"
 "POT-Creation-Date: 2017-01-29 09:05-0500\n"
-"PO-Revision-Date: 2017-05-06 20:54+0000\n"
-"Last-Translator: m4sk1n <Unknown>\n"
+"PO-Revision-Date: 2017-07-05 22:24+0000\n"
+"Last-Translator: Piotr Sokół <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-07 05:45+0000\n"
-"X-Generator: Launchpad (build 18366)\n"
+"X-Launchpad-Export-Date: 2017-07-06 05:37+0000\n"
+"X-Generator: Launchpad (build 18419)\n"
 "Language: pl\n"
 
 #: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:40
@@ -44,7 +44,7 @@ msgstr "Cofnij"
 
 #: ../sgtlauncher/SgtLauncher.py:88
 msgid "Redo"
-msgstr "Powtórz"
+msgstr "Ponów"
 
 #: ../sgtlauncher/SgtLauncher.py:166
 msgid "Please wait..."
@@ -53,19 +53,19 @@ msgstr "Proszę czekać…"
 #: ../sgtlauncher/SgtLauncher.py:201
 #, python-format
 msgid "Loading %s"
-msgstr "Ładowanie %s"
+msgstr "Wczytywanie %s"
 
 #: ../sgtlauncher/SgtLauncher.py:422
 msgid "Preferences"
-msgstr "Ustawienia"
+msgstr "Preferencje"
 
 #: ../sgtlauncher/SgtLauncher.py:423
 msgid "About"
-msgstr "O pomoc"
+msgstr "O programie"
 
 #: ../sgtlauncher/SgtLauncher.py:424
 msgid "Quit"
-msgstr "Wyjdź"
+msgstr "Zakończ"
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
 msgid ""
