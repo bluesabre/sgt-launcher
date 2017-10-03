@@ -15,8 +15,6 @@
 
 import gi
 import os
-import sys
-import time
 
 from locale import gettext as _
 
@@ -419,7 +417,7 @@ class MyApplication(Gtk.Application):
         Gtk.Application.do_startup(self)
 
         menu = Gio.Menu()
-        menu.append(_("Preferences"), "app.show-preferences")
+        # menu.append(_("Preferences"), "app.show-preferences")
         menu.append(_("About"), "app.about")
         menu.append(_("Quit"), "app.quit")
         self.set_app_menu(menu)
