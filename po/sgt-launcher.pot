@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-03 05:54-0400\n"
+"POT-Creation-Date: 2017-10-03 06:04-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,12 @@ msgid "Playing a short game of Galaxies"
 msgstr ""
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."
