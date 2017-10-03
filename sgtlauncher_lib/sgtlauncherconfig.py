@@ -27,8 +27,6 @@ __version__ = '0.2.3'
 
 import os  # nopep8
 
-from locale import gettext as _  # nopep8
-
 
 class project_path_not_found(Exception):
     """Raised when we can't find the project directory."""
@@ -58,7 +56,7 @@ def get_data_path():
     else:
         abs_data_path = os.path.abspath(__sgtlauncher_data_directory__)
     if not os.path.exists(abs_data_path):
-        print (abs_data_path)
+        print(abs_data_path)
         raise project_path_not_found
 
     return abs_data_path

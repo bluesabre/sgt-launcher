@@ -278,6 +278,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
         update_desktop_file(desktop_file, script_path)
         remove_appdata_in(self.root, target_data)
 
+
 DistUtilsExtra.auto.setup(
     name='sgt-launcher',
     version='0.2.3',
