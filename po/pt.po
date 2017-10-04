@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-01-29 09:05-0500\n"
-"PO-Revision-Date: 2017-03-16 10:44+0000\n"
+"POT-Creation-Date: 2017-10-03 06:04-0400\n"
+"PO-Revision-Date: 2017-10-03 11:05+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-03-19 06:52+0000\n"
-"X-Generator: Launchpad (build 18332)\n"
+"X-Launchpad-Export-Date: 2017-10-04 04:58+0000\n"
+"X-Generator: Launchpad (build 18471)\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:40
-#: ../sgtlauncher/SgtLauncher.py:367
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:38
+#: ../sgtlauncher/SgtLauncher.py:365
 msgid "SGT Puzzles Collection"
 msgstr "Colecção Quebra-cabeças SGT"
 
@@ -35,36 +35,33 @@ msgstr "Lançador para a colecção portátil de quebra-cabeças de  Simon Tatha
 msgid "Games;Puzzles;"
 msgstr "Jogos;Quebra-cabeças;"
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:83
 msgid "New Game"
 msgstr "Novo Jogo"
 
-#: ../sgtlauncher/SgtLauncher.py:87
+#: ../sgtlauncher/SgtLauncher.py:85
 msgid "Undo"
 msgstr "Desfazer"
 
-#: ../sgtlauncher/SgtLauncher.py:88
+#: ../sgtlauncher/SgtLauncher.py:86
 msgid "Redo"
 msgstr "Refazer"
 
-#: ../sgtlauncher/SgtLauncher.py:166
+#: ../sgtlauncher/SgtLauncher.py:164
 msgid "Please wait..."
 msgstr "Aguarde por favor..."
 
-#: ../sgtlauncher/SgtLauncher.py:201
+#: ../sgtlauncher/SgtLauncher.py:199
 #, python-format
 msgid "Loading %s"
 msgstr "A carregar %s"
 
-#: ../sgtlauncher/SgtLauncher.py:422
-msgid "Preferences"
-msgstr "Preferências"
-
-#: ../sgtlauncher/SgtLauncher.py:423
+#. menu.append(_("Preferences"), "app.show-preferences")
+#: ../sgtlauncher/SgtLauncher.py:421
 msgid "About"
 msgstr "Acerca"
 
-#: ../sgtlauncher/SgtLauncher.py:424
+#: ../sgtlauncher/SgtLauncher.py:422
 msgid "Quit"
 msgstr "Sair"
 
@@ -94,6 +91,13 @@ msgid "Playing a short game of Galaxies"
 msgstr "Jogando um curto jogo de Galaxies"
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+"O item de menu Preferências foi removido e várias traduções foram incluídas."
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."

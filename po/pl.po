@@ -5,19 +5,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: <m4sk1n@vivaldi.net>, m4sk1n on Freenode\n"
-"POT-Creation-Date: 2017-01-29 09:05-0500\n"
+"POT-Creation-Date: 2017-10-03 06:04-0400\n"
 "PO-Revision-Date: 2017-07-05 22:24+0000\n"
 "Last-Translator: Piotr Sokół <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-07-06 05:37+0000\n"
-"X-Generator: Launchpad (build 18419)\n"
+"X-Launchpad-Export-Date: 2017-10-04 04:58+0000\n"
+"X-Generator: Launchpad (build 18471)\n"
 "Language: pl\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:40
-#: ../sgtlauncher/SgtLauncher.py:367
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:38
+#: ../sgtlauncher/SgtLauncher.py:365
 msgid "SGT Puzzles Collection"
 msgstr "Kolekcja gier logicznych SGT"
 
@@ -34,36 +34,33 @@ msgstr "Program uruchamiający gry z Kolekcji Gier Logicznych Simona Tathama"
 msgid "Games;Puzzles;"
 msgstr "Gry;Logiczne;"
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:83
 msgid "New Game"
 msgstr "Nowa gra"
 
-#: ../sgtlauncher/SgtLauncher.py:87
+#: ../sgtlauncher/SgtLauncher.py:85
 msgid "Undo"
 msgstr "Cofnij"
 
-#: ../sgtlauncher/SgtLauncher.py:88
+#: ../sgtlauncher/SgtLauncher.py:86
 msgid "Redo"
 msgstr "Ponów"
 
-#: ../sgtlauncher/SgtLauncher.py:166
+#: ../sgtlauncher/SgtLauncher.py:164
 msgid "Please wait..."
 msgstr "Proszę czekać…"
 
-#: ../sgtlauncher/SgtLauncher.py:201
+#: ../sgtlauncher/SgtLauncher.py:199
 #, python-format
 msgid "Loading %s"
 msgstr "Wczytywanie %s"
 
-#: ../sgtlauncher/SgtLauncher.py:422
-msgid "Preferences"
-msgstr "Preferencje"
-
-#: ../sgtlauncher/SgtLauncher.py:423
+#. menu.append(_("Preferences"), "app.show-preferences")
+#: ../sgtlauncher/SgtLauncher.py:421
 msgid "About"
 msgstr "O programie"
 
-#: ../sgtlauncher/SgtLauncher.py:424
+#: ../sgtlauncher/SgtLauncher.py:422
 msgid "Quit"
 msgstr "Zakończ"
 
@@ -92,6 +89,12 @@ msgid "Playing a short game of Galaxies"
 msgstr "Krótka rozgrywka w Galaxies"
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."
