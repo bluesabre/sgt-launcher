@@ -1,0 +1,106 @@
+# Danish translation for sgt-launcher
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the sgt-launcher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sgt-launcher\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-10-03 06:04-0400\n"
+"PO-Revision-Date: 2017-11-23 22:16+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"Language-Team: Danish <da@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-11-24 05:40+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
+
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:38
+#: ../sgtlauncher/SgtLauncher.py:365
+msgid "SGT Puzzles Collection"
+msgstr "SGT-spilsamling"
+
+#: ../sgt-launcher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Samling af korte spil"
+
+#: ../sgt-launcher.desktop.in.h:3
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "Opstarter til Simon Tatham's transportable spilsamling"
+
+#: ../sgt-launcher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Spil;"
+
+#: ../sgtlauncher/SgtLauncher.py:83
+msgid "New Game"
+msgstr "Nyt spil"
+
+#: ../sgtlauncher/SgtLauncher.py:85
+msgid "Undo"
+msgstr "Fortryd"
+
+#: ../sgtlauncher/SgtLauncher.py:86
+msgid "Redo"
+msgstr "Omgør"
+
+#: ../sgtlauncher/SgtLauncher.py:164
+msgid "Please wait..."
+msgstr "Vent venligst..."
+
+#: ../sgtlauncher/SgtLauncher.py:199
+#, python-format
+msgid "Loading %s"
+msgstr "Indlæser %s"
+
+#. menu.append(_("Preferences"), "app.show-preferences")
+#: ../sgtlauncher/SgtLauncher.py:421
+msgid "About"
+msgstr "Om"
+
+#: ../sgtlauncher/SgtLauncher.py:422
+msgid "Quit"
+msgstr "Afslut"
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"SGT-spilsamling er en letanvendelig opstarter til Simon Tatham's "
+"transportable spilsamling."
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"Samlingen præsenteres som relaterede men forskelle sæt af logiske spil. "
+"Hvert spil vises i opstartervinduet med simple styringer."
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "Opstartsvinduet"
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Spiller er kort spil Galaxies"
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+"Præferencer-menupunktet er blevet fjernet og adskillige oversættelser er "
+"inkluderet."
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now "
+"links to the correct binary."
+msgstr ""
+"Ikkeeksisterende opstartere vises ikke længere. Programopstarteren linker nu "
+"til den korrekte binær."
