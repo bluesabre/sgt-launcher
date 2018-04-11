@@ -30,6 +30,11 @@
 ​  </provides>
 ​
 ​  <releases>
+    <release version="0.2.4" date="2018-04-11">
+​      <description>
+​        <_p>This is a minor translations-only release.</_p>
+​      </description>
+​    </release>
     <release version="0.2.3" date="2017-10-03">
 ​      <description>
 ​        <_p>The Preferences menu item has been removed and several translations have been included.</_p>
