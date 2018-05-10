@@ -19,5 +19,13 @@ Installation:
  2. Run the installer:
     sudo python3 setup.py install
 
+Release Instructions:
+ 1. Download translation updates from
+    https://translations.launchpad.net/sgt-launcher/trunk/+translations
+ 2. Bump the release version in setup.py
+ 3. Tag the release
+ 4. Run `python3 setup.py sdist`
+ 5. Upload the release file (dist/sgt-launcher.*) on Launchpad
+
 Please report comments, suggestions, and bugs to:
  https://launchpad.net/sgt-launcher
