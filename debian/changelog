@@ -1,3 +1,15 @@
+sgt-launcher (0.2.4) bionic; urgency=medium
+
+  * d/control:
+    - Run wrap-and-sort
+    - Add build-depend on dh-python and python3-distutils
+    - Bump standards-version to 4.1.3
+  * d/compat, d/control: Bump debhelper to 11
+  * d/copyright: Use secure Format URL
+  * d/upstream, d/watch: Add upstream signing key
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 10 May 2018 06:04:56 -0400
+
 sgt-launcher (0.01) yakkety; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)

@@ -1,3 +1,5 @@
+#DEBHELPER#
+
 if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" ]; then
     dpkg-divert --package sgt-launcher --remove --rename \
        --divert /usr/share/applications/sgt-blackbox.desktop.orig /usr/share/applications/sgt-blackbox.desktop

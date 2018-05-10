@@ -1,0 +1,3 @@
+# sgt-launcher replaces menu entries by duplicated those found in sgt-puzzles
+sgt-launcher: desktop-command-not-in-package
+

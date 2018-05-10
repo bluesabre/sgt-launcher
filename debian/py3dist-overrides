@@ -1,0 +1,7 @@
+gi python3-gi
+gi.repository.glib python3-gi
+gi.repository.gdk python3-gi
+gi.repository.gdkpixbuf python3-gi
+gi.repository.gio python3-gi
+gi.repository.gtk python3-gi
+gi.repository.pango python3-gi

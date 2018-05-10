@@ -1,3 +1,5 @@
+#DEBHELPER#
+
 if [ upgrade != "$1" ] || dpkg --compare-versions "$2" lt 1.0-2; then
     dpkg-divert --package sgt-launcher --add --rename \
        --divert /usr/share/applications/sgt-blackbox.desktop.orig /usr/share/applications/sgt-blackbox.desktop

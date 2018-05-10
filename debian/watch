@@ -1,0 +1,4 @@
+version=3
+opts=pgpsigurlmangle=s/$/.asc/ \
+https://launchpad.net/sgt-launcher \
+(?:.*/|)sgt-launcher(?:-|_|_v|\.|V|)(\d\S*)\.(?:tar\.(?:gz|bz2|xz)|tgz|tbz2|txz|zip)
