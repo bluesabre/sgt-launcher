@@ -14,79 +14,93 @@
 #   with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import struct
-import subprocess
-import sys
 import time
+import typing
 
 import xcffib
 import xcffib.xproto
 
-from gi.repository import Gtk
+from gi.repository import GdkX11
+from gi.repository import GLib
+
+if typing.TYPE_CHECKING:
+    import subprocess
+    from gi.repository import Gtk
 
 
 class SgtSocketLauncher:
-
     def __init__(self):
-        self.socket = Gtk.Socket.new()
-        self.socket.set_can_focus(True)
-        self.socket.set_focus_on_click(True)
-        self.socket.set_receives_default(True)
+        self.retry_count = 10
+        self.retry_timer = 0.05
+        self.process = None
+        self.window_id = None
 
-    def get_socket(self):
-        return self.socket
+    def launch(self, socket: "Gtk.Socket", process: "subprocess.Popen",
+               on_success: typing.Callable[[], None],
+               on_failure: typing.Callable[[], None]) -> None:
+        self.process = process
 
-    def launch(self, path, wm_class=None):
-        if wm_class is None:
-            wm_class = path
+        self.window_id = self.try_to_get_window_id()
+        if self.window_id is None:
+            on_failure()
+            return
 
-        retry_count = 10
-        retry_timer = 0.05
+        # https://tronche.com/gui/x/icccm/sec-4.html#s-4.1.4
+        self.withdraw_window()
 
-        proc = subprocess.Popen([path])
+        def callback() -> None:
+            withdrawn = self.wait_for_window_withdraw()
+            if not withdrawn:
+                on_failure()
+                return
 
-        count = 0
-        window_id = 0
-        while window_id == 0:
-            proc.poll()
-            if proc.returncode is not None:
+            embedded = self.try_to_embed_window(socket)
+            if not embedded:
+                on_failure()
+                return
+
+            on_success()
+
+        # continue executing after handling current event and withdraw event
+        GLib.timeout_add(50, callback)
+
+    def try_to_get_window_id(self) -> typing.Optional[int]:
+        for count in range(self.retry_count):
+            self.process.poll()
+            if self.process.returncode is not None:
+                return None
+            window_id = get_window_id("_NET_WM_PID", self.process.pid)
+            if window_id != 0:
+                return window_id
+            time.sleep(self.retry_timer)
+        return None
+
+    def withdraw_window(self) -> None:
+        gdk_display = GdkX11.X11Display.get_default()
+        gdk_window = GdkX11.X11Window.foreign_new_for_display(gdk_display, self.window_id)
+        gdk_window.withdraw()
+
+    def wait_for_window_withdraw(self) -> bool:
+        for count in range(self.retry_count):
+            self.process.poll()
+            if self.process.returncode is not None:
                 return False
-
-            window_id = get_window_id("_NET_WM_PID", proc.pid)
-            if window_id == 0:
-                window_id = get_window_id("WM_CLASS", wm_class)
-            if window_id == 0:
-                count += 1
-                if count == retry_count:
-                    return False
-                time.sleep(retry_timer)
-
-        count = 0
-        while True:
-            proc.poll()
-            if proc.returncode is not None:
-                return False
-
-            plug_count = 0
-            while self.socket.get_plug_window() is None:
-                self.socket.add_id(window_id)
-                if self.socket.get_plug_window() is None:
-                    plug_count += 1
-                    if plug_count == retry_count:
-                        return False
-                    time.sleep(retry_timer)
-
-            if self.socket.get_plug_window().get_xid() == window_id:
-                proc.poll()
-                if proc.returncode is not None:
-                    return
-
+            withdrawn = is_withdrawn(self.window_id)
+            if withdrawn:
                 return True
+            time.sleep(self.retry_timer)
+        return False
 
-            count += 1
-            if count == retry_count:
+    def try_to_embed_window(self, socket: "Gtk.Socket") -> bool:
+        for count in range(self.retry_count):
+            self.process.poll()
+            if self.process.returncode is not None:
                 return False
-            time.sleep(retry_timer)
-
+            socket.add_id(self.window_id)
+            if socket.get_plug_window() is not None and \
+               socket.get_plug_window().get_xid() == self.window_id:
+                return True
+            time.sleep(self.retry_timer)
         return False
 
 
@@ -149,3 +163,16 @@ def get_property_value(property_reply):
                                   property_reply.value.buf()))
 
     return None
+
+
+def is_withdrawn(window_id: int) -> bool:
+    c = xcffib.connect()
+
+    atom = c.core.InternAtom(True, len('WM_STATE'), 'WM_STATE').reply().atom
+    property_reply = c.core.GetProperty(False, window_id, atom,
+                                        xcffib.xproto.GetPropertyType.Any,
+                                        0, 2 ** 32 - 1).reply()
+    property_value = get_property_value(property_reply)
+    c.disconnect()
+    withdrawn = not property_reply or property_value[0] == 0
+    return withdrawn

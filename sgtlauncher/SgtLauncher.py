@@ -30,6 +30,7 @@ from gi.repository import Pango  # nopep8
 
 from . import SgtSocketLauncher  # nopep8
 import sgtlauncher_lib  # nopep8
+import subprocess
 
 
 class MyWindow(Gtk.ApplicationWindow):
@@ -46,12 +47,13 @@ class MyWindow(Gtk.ApplicationWindow):
         self.set_position(Gtk.WindowPosition.CENTER)
 
         self.launcher = SgtSocketLauncher.SgtSocketLauncher()
-        self.loading = False
-        self.load_id = 0
-        self.load_retry = 0
-        self.load_title = ""
 
-        self.socket = self.launcher.get_socket()
+        self.game_process = None
+
+        self.socket = Gtk.Socket.new()
+        self.socket.set_can_focus(True)
+        self.socket.set_focus_on_click(True)
+        self.socket.set_receives_default(True)
         self.socket.connect("plug_removed", self.socket_disconnect)
         self.socket.connect("plug_added", self.socket_connect)
 
@@ -196,6 +198,8 @@ class MyWindow(Gtk.ApplicationWindow):
 
     def launch(self, title, icon_name, path):
         """Launch the specified application"""
+        self.game_process = subprocess.Popen([path])
+
         subtitle = _("Loading %s") % title
 
         if os.path.isfile(icon_name):
@@ -206,43 +210,16 @@ class MyWindow(Gtk.ApplicationWindow):
         self.launching_title.set_markup("<b>%s</b>" % title)
         self.set_view("loading", icon_name, subtitle)
 
-        self.load_icon = icon_name
-        self.load_title = title
-        self.load_retry = 0
-        self.loading_path = path
-        self.threaded_launch()
+        def on_success():
+            self.set_view("game", icon_name, title)
+        self.launcher.launch(self.socket, self.game_process,
+                             on_success, self.back_to_launcher)
 
-    def threaded_launch(self):
-        """
-        Run the application launch in a separate thread, ensuring the window
-        is correctly embedded
-        """
-        if self.loading:
-            # Application is successfully launched, switch to the game view
-            self.loading = False
-            self.load_retry = 0
-
-            # Stop the load thread
-            GLib.source_remove(self.load_id)
-            self.load_id = 0
-
-            self.set_view("game", self.load_icon, self.load_title)
-            self.grab_focus()
-            return True
-        if self.load_retry < 10:
-            # Application is not fully launched yet
-            self.loading = True
-            self.launcher.launch(self.loading_path)
-            self.load_id = GLib.timeout_add(1000, self.threaded_launch)
-            self.grab_focus()
-        else:
-            # Application failed to load, return to the launcher
-            self.loading = False
-            self.load_retry = 0
-            self.set_view("launcher")
-            self.grab_focus()
-            return True
-        return False
+    def back_to_launcher(self):
+        if self.game_process is not None:
+            self.game_process.terminate()
+            self.game_process = None
+        self.set_view("launcher")
 
     def set_view(self, name, icon_name=None, subtitle=None):
         """Change the view, setting the icon name and subtitle"""
@@ -264,7 +241,7 @@ class MyWindow(Gtk.ApplicationWindow):
         else:
             title = "%s - %s" % (title, subtitle)
 
-        if os.path.isfile(icon_name):
+        if name is not "launcher" and os.path.isfile(icon_name):
             self.set_default_icon_from_file(icon_name)
         else:
             self.set_default_icon_name(icon_name)
@@ -276,22 +253,17 @@ class MyWindow(Gtk.ApplicationWindow):
 
         if name is "game":
             self.socket.grab_focus()
+        else:
+            self.grab_focus()
 
     # Events
     def socket_connect(self, socket):
         """Embedded window connected"""
-        self.socket = self.launcher.get_socket()
         return True
 
     def socket_disconnect(self, socket):
         """Embedded window disconnected"""
-        if self.loading:
-            self.loading = False
-            self.load_retry += 1
-            GLib.source_remove(self.load_id)
-            self.load_id = GLib.timeout_add(1000, self.threaded_launch)
-        else:
-            self.set_view("launcher")
+        self.back_to_launcher()
         return True
 
     def on_keyboard_button_click(self, button, keycode, keyval):
