@@ -18,6 +18,7 @@ import locale
 
 import sys
 import os
+import signal
 
 import gi
 
@@ -37,6 +38,9 @@ PROJECT_ROOT_DIRECTORY = os.path.abspath(
 
 # Add project root directory to python search path
 sys.path.append(PROJECT_ROOT_DIRECTORY)
+
+# Allow application shutdown with Ctrl-C in terminal
+signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 import sgtlauncher  # nopep8
 sgtlauncher.main()

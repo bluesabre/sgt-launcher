@@ -40,5 +40,8 @@ def main():
 
     # Run the application.
     app = SgtLauncher.MyApplication()
-    exit_status = app.run(None)
+    try:
+        exit_status = app.run(None)
+    except KeyboardInterrupt:
+        exit_status = 130
     sys.exit(exit_status)

@@ -4,6 +4,7 @@ SGT Puzzles Collection (sgt-launcher)                                      NEWS
 
 - Fix: launching a game results in a loop (LP: #1697107)
 - Add bug reporting to the application menu
+- Allow application shutdown with Ctrl-C in terminal
 - Translation Update: Danish
 
 
