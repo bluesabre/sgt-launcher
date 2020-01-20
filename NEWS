@@ -1,5 +1,11 @@
 SGT Puzzles Collection (sgt-launcher)                                      NEWS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+20 Jan 2020, SGT Puzzles Collection 0.2.5 (unreleased)
+
+- Fix: launching a game results in a loop (LP: #1697107)
+- Translation Update: Danish
+
+
 11 Apr 2018, SGT Puzzles Collection 0.2.4
 
 - Translation Updates: Danish, Dutch, French, Lithuanian, Portuguese
