@@ -7,24 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-04-26 05:52+0000\n"
-"PO-Revision-Date: 2017-11-23 22:16+0000\n"
+"POT-Creation-Date: 2020-01-20 04:07+0000\n"
+"PO-Revision-Date: 2019-05-17 12:34+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-04-27 05:56+0000\n"
-"X-Generator: Launchpad (build 18623)\n"
+"X-Launchpad-Export-Date: 2020-01-20 23:08+0000\n"
+"X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:38
-#: ../sgtlauncher/SgtLauncher.py:365
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
+#: ../sgtlauncher/SgtLauncher.py:337
 msgid "SGT Puzzles Collection"
 msgstr "SGT-spilsamling"
 
 #: ../sgt-launcher.desktop.in.h:2
 msgid "Collection of short puzzle games"
-msgstr "Samling af korte spil"
+msgstr "Samling af hurtige spil"
 
 #: ../sgt-launcher.desktop.in.h:3
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
@@ -35,33 +35,33 @@ msgstr "Opstarter til Simon Tatham's transportable spilsamling"
 msgid "Games;Puzzles;"
 msgstr "Spil;"
 
-#: ../sgtlauncher/SgtLauncher.py:83
+#: ../sgtlauncher/SgtLauncher.py:85
 msgid "New Game"
 msgstr "Nyt spil"
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:87
 msgid "Undo"
 msgstr "Fortryd"
 
-#: ../sgtlauncher/SgtLauncher.py:86
+#: ../sgtlauncher/SgtLauncher.py:88
 msgid "Redo"
 msgstr "Omgør"
 
-#: ../sgtlauncher/SgtLauncher.py:164
+#: ../sgtlauncher/SgtLauncher.py:166
 msgid "Please wait..."
-msgstr "Vent venligst..."
+msgstr "Vent venligst ..."
 
-#: ../sgtlauncher/SgtLauncher.py:199
+#: ../sgtlauncher/SgtLauncher.py:203
 #, python-format
 msgid "Loading %s"
 msgstr "Indlæser %s"
 
 #. menu.append(_("Preferences"), "app.show-preferences")
-#: ../sgtlauncher/SgtLauncher.py:421
+#: ../sgtlauncher/SgtLauncher.py:393
 msgid "About"
 msgstr "Om"
 
-#: ../sgtlauncher/SgtLauncher.py:422
+#: ../sgtlauncher/SgtLauncher.py:394
 msgid "Quit"
 msgstr "Afslut"
 
@@ -87,7 +87,7 @@ msgstr "Opstartsvinduet"
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
-msgstr "Spiller er kort spil Galaxies"
+msgstr "Spiller er hurtigt spil Galaxies"
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
 msgid "This is a minor translations-only release."

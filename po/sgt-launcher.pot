@@ -1,24 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-03 06:04-0400\n"
+"POT-Creation-Date: 2020-01-20 04:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2020-01-20 23:08+0000\n"
+"X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
+"Language: \n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:38
-#: ../sgtlauncher/SgtLauncher.py:365
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
+#: ../sgtlauncher/SgtLauncher.py:337
 msgid "SGT Puzzles Collection"
 msgstr ""
 
@@ -35,33 +32,33 @@ msgstr ""
 msgid "Games;Puzzles;"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:83
+#: ../sgtlauncher/SgtLauncher.py:85
 msgid "New Game"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:87
 msgid "Undo"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:86
+#: ../sgtlauncher/SgtLauncher.py:88
 msgid "Redo"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:164
+#: ../sgtlauncher/SgtLauncher.py:166
 msgid "Please wait..."
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:199
+#: ../sgtlauncher/SgtLauncher.py:203
 #, python-format
 msgid "Loading %s"
 msgstr ""
 
 #. menu.append(_("Preferences"), "app.show-preferences")
-#: ../sgtlauncher/SgtLauncher.py:421
+#: ../sgtlauncher/SgtLauncher.py:393
 msgid "About"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:422
+#: ../sgtlauncher/SgtLauncher.py:394
 msgid "Quit"
 msgstr ""
 
@@ -86,12 +83,16 @@ msgid "Playing a short game of Galaxies"
 msgstr ""
 
 #: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+msgid "This is a minor translations-only release."
+msgstr ""
+
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
+#: ../data/appdata/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."

@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-04-26 05:52+0000\n"
+"POT-Creation-Date: 2020-01-20 04:07+0000\n"
 "PO-Revision-Date: 2017-10-03 11:05+0000\n"
 "Last-Translator: David Pires <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-04-27 05:56+0000\n"
-"X-Generator: Launchpad (build 18623)\n"
+"X-Launchpad-Export-Date: 2020-01-20 23:08+0000\n"
+"X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:38
-#: ../sgtlauncher/SgtLauncher.py:365
+#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
+#: ../sgtlauncher/SgtLauncher.py:337
 msgid "SGT Puzzles Collection"
 msgstr "Colecção Quebra-cabeças SGT"
 
@@ -35,33 +35,33 @@ msgstr "Lançador para a colecção portátil de quebra-cabeças de  Simon Tatha
 msgid "Games;Puzzles;"
 msgstr "Jogos;Quebra-cabeças;"
 
-#: ../sgtlauncher/SgtLauncher.py:83
+#: ../sgtlauncher/SgtLauncher.py:85
 msgid "New Game"
 msgstr "Novo Jogo"
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:87
 msgid "Undo"
 msgstr "Desfazer"
 
-#: ../sgtlauncher/SgtLauncher.py:86
+#: ../sgtlauncher/SgtLauncher.py:88
 msgid "Redo"
 msgstr "Refazer"
 
-#: ../sgtlauncher/SgtLauncher.py:164
+#: ../sgtlauncher/SgtLauncher.py:166
 msgid "Please wait..."
 msgstr "Aguarde por favor..."
 
-#: ../sgtlauncher/SgtLauncher.py:199
+#: ../sgtlauncher/SgtLauncher.py:203
 #, python-format
 msgid "Loading %s"
 msgstr "A carregar %s"
 
 #. menu.append(_("Preferences"), "app.show-preferences")
-#: ../sgtlauncher/SgtLauncher.py:421
+#: ../sgtlauncher/SgtLauncher.py:393
 msgid "About"
 msgstr "Acerca"
 
-#: ../sgtlauncher/SgtLauncher.py:422
+#: ../sgtlauncher/SgtLauncher.py:394
 msgid "Quit"
 msgstr "Sair"
 
