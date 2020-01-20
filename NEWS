@@ -3,6 +3,7 @@ SGT Puzzles Collection (sgt-launcher)                                      NEWS
 20 Jan 2020, SGT Puzzles Collection 0.2.5 (unreleased)
 
 - Fix: launching a game results in a loop (LP: #1697107)
+- Add bug reporting to the application menu
 - Translation Update: Danish
 
 

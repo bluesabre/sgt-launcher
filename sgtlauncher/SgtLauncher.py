@@ -389,30 +389,32 @@ class MyApplication(Gtk.Application):
         Gtk.Application.do_startup(self)
 
         menu = Gio.Menu()
-        # menu.append(_("Preferences"), "app.show-preferences")
         menu.append(_("About"), "app.about")
+        menu.append(_("Report a Bug..."), "app.bugreport")
         menu.append(_("Quit"), "app.quit")
         self.set_app_menu(menu)
-
-        prefs_action = Gio.SimpleAction.new("show-preferences", None)
-        prefs_action.connect("activate", self.prefs_cb)
-        self.add_action(prefs_action)
 
         about_action = Gio.SimpleAction.new("about", None)
         about_action.connect("activate", self.about_cb)
         self.add_action(about_action)
 
+        bug_action = Gio.SimpleAction.new("bugreport", None)
+        bug_action.connect("activate", self.bugreport_cb)
+        self.add_action(bug_action)
+
         quit_action = Gio.SimpleAction.new("quit", None)
         quit_action.connect("activate", self.quit_cb)
         self.add_action(quit_action)
-
-    def prefs_cb(self, action, parameter):
-        print("Not implemented")
 
     def about_cb(self, action, parameter):
         """Show the about dialog"""
         about = MyAboutDialog(self.APPNAME, self.TITLE, self.win)
         about.run()
+
+    def bugreport_cb(self, action, parameter):
+        """Take the user to the bug reporting platform"""
+        uri = "https://bugs.launchpad.net/sgt-launcher"
+        Gtk.show_uri_on_window(self.win, uri, Gdk.CURRENT_TIME)
 
     def quit_cb(self, action, parameter):
         """Exit application"""
