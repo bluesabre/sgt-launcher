@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 16:01-0600\n"
+"POT-Creation-Date: 2020-01-21 16:15-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:339
+#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:344
 msgid "SGT Puzzles Collection"
 msgstr ""
 
@@ -56,15 +56,15 @@ msgstr ""
 msgid "Loading %s"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:394
+#: ../sgtlauncher/SgtLauncher.py:399
 msgid "About"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:395
+#: ../sgtlauncher/SgtLauncher.py:400
 msgid "Report a Bug..."
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:396
+#: ../sgtlauncher/SgtLauncher.py:401
 msgid "Quit"
 msgstr ""
 

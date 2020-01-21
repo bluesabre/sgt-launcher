@@ -302,18 +302,18 @@ class MyWindow(Gtk.ApplicationWindow):
 
 class MyAboutDialog(Gtk.AboutDialog):
     def __init__(self, appname, title, parent):
-        Gtk.AboutDialog.__init__(self)
+        Gtk.AboutDialog.__init__(self, use_header_bar=True)
         self.set_program_name(title)
         self.set_transient_for(parent)
         self.set_logo_icon_name(appname)
         self.set_modal(True)
 
         self.set_authors([
-            "Sean Davis (SGT Puzzles)",
+            "Sean Davis (sgt-launcher)",
             "Simon Tatham (Simon Tatham's Portable Puzzle Collection)"
         ])
         self.set_copyright(
-            "SGT Puzzles\n"
+            "SGT Puzzles Collection (sgt-launcher)\n"
             "© 2016-2020 Sean Davis\n"
             "\n"
             "Simon Tatham's Portable Puzzle Collection\n"
@@ -323,9 +323,14 @@ class MyAboutDialog(Gtk.AboutDialog):
             "Pasi Lallinaho"
         ])
         self.set_website("https://launchpad.net/sgt-launcher")
-        self.set_website_label("SGT Puzzle Launcher on Launchpad")
         self.set_license_type(Gtk.License.GPL_3_0)
         self.set_version(sgtlauncher_lib.get_version())
+
+        # Cleanup duplicate buttons
+        hbar = self.get_header_bar()
+        for child in hbar.get_children():
+            if type(child) in [Gtk.Button, Gtk.ToggleButton]:
+                child.destroy()
 
         self.connect("response", self.on_response)
 

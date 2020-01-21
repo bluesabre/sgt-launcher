@@ -35,7 +35,7 @@ def parse_options():
 
 
 def main():
-    """Main application for SGT Launcher"""
+    """Main application for SGT Puzzles Collection"""
     parse_options()
 
     # Run the application.
