@@ -200,7 +200,11 @@ class MyWindow(Gtk.ApplicationWindow):
 
     def launch(self, title, icon_name, path):
         """Launch the specified application"""
-        self.game_process = subprocess.Popen([path])
+        # Toggle GTK_CSD=0 to guarantee embedding
+        csd_env = os.environ.copy()
+        csd_env["GTK_CSD"] = "0"
+
+        self.game_process = subprocess.Popen([path], env=csd_env)
 
         subtitle = _("Loading %s") % title
 
