@@ -62,7 +62,7 @@ class SgtSocketLauncher:
             on_success()
 
         # continue executing after handling current event and withdraw event
-        GLib.timeout_add(50, callback)
+        GLib.timeout_add(1000, callback)
 
     def try_to_get_window_id(self) -> typing.Optional[int]:
         for count in range(self.retry_count):
