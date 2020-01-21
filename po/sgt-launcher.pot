@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 10:29-0600\n"
+"POT-Creation-Date: 2020-01-21 16:01-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:337
+#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:339
 msgid "SGT Puzzles Collection"
 msgstr ""
 
@@ -35,36 +35,36 @@ msgstr ""
 msgid "Games;Puzzles;"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:87
 msgid "New Game"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:87
+#: ../sgtlauncher/SgtLauncher.py:89
 msgid "Undo"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:88
+#: ../sgtlauncher/SgtLauncher.py:90
 msgid "Redo"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:166
+#: ../sgtlauncher/SgtLauncher.py:168
 msgid "Please wait..."
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:203
+#: ../sgtlauncher/SgtLauncher.py:205
 #, python-format
 msgid "Loading %s"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:392
+#: ../sgtlauncher/SgtLauncher.py:394
 msgid "About"
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:393
+#: ../sgtlauncher/SgtLauncher.py:395
 msgid "Report a Bug..."
 msgstr ""
 
-#: ../sgtlauncher/SgtLauncher.py:394
+#: ../sgtlauncher/SgtLauncher.py:396
 msgid "Quit"
 msgstr ""
 

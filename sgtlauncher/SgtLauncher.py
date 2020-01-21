@@ -148,7 +148,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
         # Add the column and enable typeahead
         view.append_column(col)
-        view.set_search_column(1)
+        view.set_search_column(0)
 
         view.connect("row-activated", self.on_activated)
 
