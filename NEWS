@@ -2,9 +2,12 @@ SGT Puzzles Collection (sgt-launcher)                                      NEWS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 20 Jan 2020, SGT Puzzles Collection 0.2.5 (unreleased)
 
-- Fix: launching a game results in a loop (LP: #1697107)
+- Fix game launching loop (LP: #1697107)
 - Add bug reporting to the application menu
 - Allow application shutdown with Ctrl-C in terminal
+- Fix appdata validation; added more information
+- Move to RDN-format for appdata and the launcher (source installations
+  may result in duplicate .desktop files, just delete sgt-launcher.desktop)
 - Translation Update: Danish
 
 
