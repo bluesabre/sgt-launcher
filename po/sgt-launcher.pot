@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 08:54-0600\n"
+"POT-Creation-Date: 2020-01-21 09:07-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,21 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
 #: ../sgtlauncher/SgtLauncher.py:337
 msgid "SGT Puzzles Collection"
 msgstr ""
 
-#: ../sgt-launcher.desktop.in.h:2
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
 msgstr ""
 
-#: ../sgt-launcher.desktop.in.h:3
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr ""
 
-#: ../sgt-launcher.desktop.in.h:4
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
 msgstr ""
 

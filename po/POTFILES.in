@@ -1,5 +1,5 @@
 # Desktop File
-sgt-launcher.desktop.in
+org.bluesabre.SgtLauncher.desktop.in
 
 # Python Files
 sgtlauncher/SgtLauncher.py

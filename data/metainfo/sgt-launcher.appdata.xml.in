@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017-2020 Sean Davis <sean@bluesabre.org> -->
 <component type="desktop-application">
-  <id>sgt-launcher.desktop</id>
+  <id>org.bluesabre.SgtLauncher</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <content_rating type="oars-1.0" />
@@ -12,6 +12,8 @@
     <_p>SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's Portable Puzzle Collection.</_p>
     <_p>The collection is presented as a related but diverse set of logic games. Each game is displayed in the launcher window with simplified controls.</_p>
   </description>
+
+  <launchable type="desktop-id">org.bluesabre.SgtLauncher.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">

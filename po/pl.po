@@ -16,21 +16,21 @@ msgstr ""
 "X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
 "Language: pl\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
 #: ../sgtlauncher/SgtLauncher.py:337
 msgid "SGT Puzzles Collection"
 msgstr "Kolekcja gier logicznych SGT"
 
-#: ../sgt-launcher.desktop.in.h:2
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
 msgstr "Kolekcja prostych gier logicznych"
 
-#: ../sgt-launcher.desktop.in.h:3
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr "Program uruchamiający gry z Kolekcji Gier Logicznych Simona Tathama"
 
-#: ../sgt-launcher.desktop.in.h:4
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
 msgstr "Gry;Logiczne;"
 

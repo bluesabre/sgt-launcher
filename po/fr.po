@@ -17,21 +17,21 @@ msgstr ""
 "X-Launchpad-Export-Date: 2020-01-20 23:08+0000\n"
 "X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
 
-#: ../sgt-launcher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
 #: ../sgtlauncher/SgtLauncher.py:337
 msgid "SGT Puzzles Collection"
 msgstr "Collection de puzzles SGT"
 
-#: ../sgt-launcher.desktop.in.h:2
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
 msgstr "Une collections de court puzzles"
 
-#: ../sgt-launcher.desktop.in.h:3
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr "Lanceur pour la collection de puzzles portables de Simon Tatham"
 
-#: ../sgt-launcher.desktop.in.h:4
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
 msgstr "Jeux;Puzzles;"
 
