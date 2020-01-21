@@ -70,6 +70,8 @@ class MyWindow(Gtk.ApplicationWindow):
         self.hb.props.title = self.title
         self.set_titlebar(self.hb)
 
+        self.set_wmclass("sgt-launcher", _("SGT Puzzles Collection"))
+
         self.stack = Gtk.Stack.new()
         self.add(self.stack)
 
