@@ -27,6 +27,9 @@
   </screenshots>
 
   <url type="homepage">https://launchpad.net/sgt-launcher</url>
+  <url type="bugtracker">https://bugs.launchpad.net/sgt-launcher</url>
+  <url type="donation">https://bluesabre.org/donate</url>
+  <url type="translate">https://translations.launchpad.net/sgt-launcher</url>
 
   <provides>
     <binary>sgt-launcher</binary>
