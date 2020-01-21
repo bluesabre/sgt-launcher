@@ -27,7 +27,7 @@ msgid "Collection of short puzzle games"
 msgstr "Colección de juegos y puzles cortos"
 
 #: ../sgt-launcher.desktop.in.h:3
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr "Lanzadpr de la colección portátil de puzles de Simon Tatham"
 
@@ -65,7 +65,7 @@ msgstr "Acerca de"
 msgid "Quit"
 msgstr "Salir"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
 msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
@@ -73,7 +73,7 @@ msgstr ""
 "La colección de puzles SGT es un lanzador simple de usar para la colección "
 "portátil de puzles de Simon Tatham."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
@@ -82,25 +82,25 @@ msgstr ""
 "diversos de lógica. Cada juego se muestra en la ventana del lanzador con "
 "controles simplificados."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
 msgstr "La ventana lanzadora"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
 msgstr "Jugar una partida corta de Galaxias"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
 msgid "This is a minor translations-only release."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."

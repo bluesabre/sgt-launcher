@@ -27,7 +27,7 @@ msgid "Collection of short puzzle games"
 msgstr "Samling af hurtige spil"
 
 #: ../sgt-launcher.desktop.in.h:3
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr "Opstarter til Simon Tatham's transportable spilsamling"
 
@@ -65,7 +65,7 @@ msgstr "Om"
 msgid "Quit"
 msgstr "Afslut"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
 msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
@@ -73,7 +73,7 @@ msgstr ""
 "SGT-spilsamling er en letanvendelig opstarter til Simon Tatham's "
 "transportable spilsamling."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
@@ -81,19 +81,19 @@ msgstr ""
 "Samlingen præsenteres som relaterede men forskelle sæt af logiske spil. "
 "Hvert spil vises i opstartervinduet med simple styringer."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
 msgstr "Opstartsvinduet"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
 msgstr "Spiller er hurtigt spil Galaxies"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
 msgid "This is a minor translations-only release."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
@@ -101,7 +101,7 @@ msgstr ""
 "Præferencer-menupunktet er blevet fjernet og adskillige oversættelser er "
 "inkluderet."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."

@@ -27,7 +27,7 @@ msgid "Collection of short puzzle games"
 msgstr "Trumpų galvosūkių žaidimų kolekcija"
 
 #: ../sgt-launcher.desktop.in.h:3
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr "Leistukas, skirtas Simon'o Tatham'o perkeliamų galvosūkių kolekcijai"
 
@@ -65,7 +65,7 @@ msgstr "Apie"
 msgid "Quit"
 msgstr "Išeiti"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
 msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
@@ -73,7 +73,7 @@ msgstr ""
 "SGT galvosūkių kolekcija yra paprastas naudoti leistukas, skirtas Simon'o "
 "Tatham'o perkeliamų galvosūkių kolekcijai."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
@@ -82,19 +82,19 @@ msgstr ""
 "rinkinys. Kiekvienas žaidimas yra rodomas leistuko lange su supaprastintais "
 "valdikliais."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
 msgstr "Leistuko langas"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
 msgstr "Žaidžiamas trumpas \"Galaxies\" žaidimas"
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
 msgid "This is a minor translations-only release."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
@@ -102,7 +102,7 @@ msgstr ""
 "Nuostatų meniu buvo pašalintas ir buvo įtraukti keli nauji programos "
 "vertimai."
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."

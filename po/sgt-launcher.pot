@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-20 18:30-0600\n"
+"POT-Creation-Date: 2020-01-21 08:54-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Collection of short puzzle games"
 msgstr ""
 
 #: ../sgt-launcher.desktop.in.h:3
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:1
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr ""
 
@@ -68,37 +68,37 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:2
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
 msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:4
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:5
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:6
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
 msgid "This is a minor translations-only release."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 
-#: ../data/appdata/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."
