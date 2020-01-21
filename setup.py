@@ -284,7 +284,7 @@ DistUtilsExtra.auto.setup(
     version='0.2.4',
     license='GPL-3+',
     author='Sean Davis',
-    author_email='smd.seandavis@gmail.com',
+    author_email='sean@bluesabre.org',
     description='Launcher for Simon Tatham\'s Portable Puzzle Collection',
     long_description='A collection of logic games written by Simon Tatham. '
                      'This application wraps the games into an all-in-one '

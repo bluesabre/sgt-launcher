@@ -312,7 +312,7 @@ class MyAboutDialog(Gtk.AboutDialog):
         ])
         self.set_copyright(
             "SGT Puzzles\n"
-            "© 2016-2017 Sean Davis\n"
+            "© 2016-2020 Sean Davis\n"
             "\n"
             "Simon Tatham's Portable Puzzle Collection\n"
             "© 2004-2012 Simon Tatham"
