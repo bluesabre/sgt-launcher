@@ -23,7 +23,7 @@ import signal
 import gi
 
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk  # nopep8
+from gi.repository import Gtk
 
 locale.textdomain('sgt-launcher')
 
@@ -42,5 +42,5 @@ sys.path.append(PROJECT_ROOT_DIRECTORY)
 # Allow application shutdown with Ctrl-C in terminal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
-import sgtlauncher  # nopep8
+import sgtlauncher
 sgtlauncher.main()

@@ -20,9 +20,9 @@ import os
 import gi
 
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk  # nopep8
+from gi.repository import Gtk  # noqa: E402
 
-from . sgtlauncherconfig import get_data_file  # nopep8
+from . sgtlauncherconfig import get_data_file  # noqa: E402
 
 
 def get_builder(builder_file_name):

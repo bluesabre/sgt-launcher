@@ -77,7 +77,8 @@ class SgtSocketLauncher:
 
     def withdraw_window(self) -> None:
         gdk_display = GdkX11.X11Display.get_default()
-        gdk_window = GdkX11.X11Window.foreign_new_for_display(gdk_display, self.window_id)
+        gdk_window = GdkX11.X11Window.foreign_new_for_display(
+            gdk_display, self.window_id)
         gdk_window.withdraw()
 
     def wait_for_window_withdraw(self) -> bool:

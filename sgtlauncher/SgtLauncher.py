@@ -13,24 +13,24 @@
 #   You should have received a copy of the GNU General Public License along
 #   with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import gi
 import os
+import subprocess
+import gi
 
 from locale import gettext as _
 
 gi.require_version('Gtk', '3.0')
 gi.require_version('Gdk', '3.0')
 
-from gi.repository import Gdk  # nopep8
-from gi.repository import GdkPixbuf  # nopep8
-from gi.repository import Gtk  # nopep8
-from gi.repository import Gio  # nopep8
-from gi.repository import GLib  # nopep8
-from gi.repository import Pango  # nopep8
+from gi.repository import Gdk  # noqa: E402
+from gi.repository import GdkPixbuf  # noqa: E402
+from gi.repository import Gtk  # noqa: E402
+from gi.repository import Gio  # noqa: E402
+from gi.repository import GLib  # noqa: E402
+from gi.repository import Pango  # noqa: E402
 
-from . import SgtSocketLauncher  # nopep8
-import sgtlauncher_lib  # nopep8
-import subprocess
+from . import SgtSocketLauncher  # noqa: E402
+import sgtlauncher_lib  # noqa: E402
 
 
 class MyWindow(Gtk.ApplicationWindow):

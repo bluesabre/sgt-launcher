@@ -27,7 +27,7 @@ except ImportError:
                      "https://launchpad.net/python-distutils-extra\n")
     sys.exit(1)
 assert DistUtilsExtra.auto.__version__ >= '2.18', \
-        'needs DistUtilsExtra.auto >= 2.18'
+    'needs DistUtilsExtra.auto >= 2.18'
 
 
 def build_launchers():
@@ -124,20 +124,20 @@ def update_config(libdir, values={}):
 def move_icon_file(root, target_data, prefix):
     """Move the icon files to their installation prefix."""
     old_icon_path = os.path.normpath(
-            os.path.join(root, target_data, 'share', 'sgt-launcher', 'media'))
+        os.path.join(root, target_data, 'share', 'sgt-launcher', 'media'))
     for icon_size in ['scalable', 'pixmap']:
         # Install sgt-launcher.png to share/pixmaps
         if icon_size == 'pixmap':
             old_icon_file = os.path.join(old_icon_path, 'sgt-launcher.png')
             icon_path = os.path.normpath(
-                        os.path.join(root, target_data, 'share', 'pixmaps'))
+                os.path.join(root, target_data, 'share', 'pixmaps'))
             icon_file = os.path.join(icon_path, 'sgt-launcher.png')
         # Install everything else to share/icons/hicolor
         else:
             old_icon_file = os.path.join(old_icon_path, 'sgt-launcher.svg')
             icon_path = os.path.normpath(
-                    os.path.join(root, target_data, 'share', 'icons',
-                                 'hicolor', icon_size, 'apps'))
+                os.path.join(root, target_data, 'share', 'icons',
+                             'hicolor', icon_size, 'apps'))
             icon_file = os.path.join(icon_path, 'sgt-launcher.svg')
 
         # Get the real paths.
@@ -164,8 +164,9 @@ def move_icon_file(root, target_data, prefix):
 def get_desktop_file(root, target_data, prefix):
     """Move the desktop file to its installation prefix."""
     desktop_path = os.path.realpath(
-            os.path.join(root, target_data, 'share', 'applications'))
-    desktop_file = os.path.join(desktop_path, 'org.bluesabre.SgtLauncher.desktop')
+        os.path.join(root, target_data, 'share', 'applications'))
+    desktop_file = os.path.join(
+        desktop_path, 'org.bluesabre.SgtLauncher.desktop')
     return desktop_file
 
 
@@ -201,13 +202,13 @@ def write_metainfo_file(filename_in):
 
 def remove_metainfo_in(root, target_data):
     metainfo_directory = os.path.normpath(
-            os.path.join(root, target_data, 'share', 'sgt-launcher',
-                         'metainfo'))
+        os.path.join(root, target_data, 'share', 'sgt-launcher',
+                     'metainfo'))
     if not os.path.exists(metainfo_directory):
         return
 
     metainfo_in = os.path.join(metainfo_directory,
-                              "sgt-launcher.appdata.xml.in")
+                               "sgt-launcher.appdata.xml.in")
     if os.path.exists(metainfo_in):
         os.remove(metainfo_in)
 
@@ -225,12 +226,14 @@ build_launchers()
 
 class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
     """Command Class to install and update the directory."""
+
     def run(self):
         """Run the setup commands."""
         DistUtilsExtra.auto.install_auto.run(self)
 
         print(("=== Installing %s, version %s ===" %
-              (self.distribution.get_name(), self.distribution.get_version())))
+               (self.distribution.get_name(),
+                self.distribution.get_version())))
 
         if not self.prefix:
             self.prefix = ''
@@ -296,4 +299,4 @@ DistUtilsExtra.auto.setup(
         ('share/metainfo', ['data/metainfo/sgt-launcher.appdata.xml'])
     ],
     cmdclass={'install': InstallAndUpdateDataDirectory}
-    )
+)
