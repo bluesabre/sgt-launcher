@@ -5,19 +5,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: <m4sk1n@vivaldi.net>, m4sk1n on Freenode\n"
-"POT-Creation-Date: 2020-01-20 04:07+0000\n"
+"POT-Creation-Date: 2020-01-23 04:10+0000\n"
 "PO-Revision-Date: 2017-07-05 22:24+0000\n"
 "Last-Translator: Piotr Sokół <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-20 23:08+0000\n"
-"X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
+"X-Launchpad-Export-Date: 2020-02-20 00:56+0000\n"
+"X-Generator: Launchpad (build 19413b719a8df7423ab1390528edadce9e0e4aca)\n"
 "Language: pl\n"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:337
+#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:348
 msgid "SGT Puzzles Collection"
 msgstr "Kolekcja gier logicznych SGT"
 
@@ -34,33 +34,36 @@ msgstr "Program uruchamiający gry z Kolekcji Gier Logicznych Simona Tathama"
 msgid "Games;Puzzles;"
 msgstr "Gry;Logiczne;"
 
-#: ../sgtlauncher/SgtLauncher.py:85
+#: ../sgtlauncher/SgtLauncher.py:87
 msgid "New Game"
 msgstr "Nowa gra"
 
-#: ../sgtlauncher/SgtLauncher.py:87
+#: ../sgtlauncher/SgtLauncher.py:89
 msgid "Undo"
 msgstr "Cofnij"
 
-#: ../sgtlauncher/SgtLauncher.py:88
+#: ../sgtlauncher/SgtLauncher.py:90
 msgid "Redo"
 msgstr "Ponów"
 
-#: ../sgtlauncher/SgtLauncher.py:166
+#: ../sgtlauncher/SgtLauncher.py:168
 msgid "Please wait..."
 msgstr "Proszę czekać…"
 
-#: ../sgtlauncher/SgtLauncher.py:203
+#: ../sgtlauncher/SgtLauncher.py:209
 #, python-format
 msgid "Loading %s"
 msgstr "Wczytywanie %s"
 
-#. menu.append(_("Preferences"), "app.show-preferences")
-#: ../sgtlauncher/SgtLauncher.py:393
+#: ../sgtlauncher/SgtLauncher.py:403
 msgid "About"
 msgstr "O programie"
 
-#: ../sgtlauncher/SgtLauncher.py:394
+#: ../sgtlauncher/SgtLauncher.py:404
+msgid "Report a Bug..."
+msgstr ""
+
+#: ../sgtlauncher/SgtLauncher.py:405
 msgid "Quit"
 msgstr "Zakończ"
 
