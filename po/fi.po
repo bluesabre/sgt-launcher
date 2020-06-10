@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgt-launcher\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-01-23 04:10+0000\n"
+"POT-Creation-Date: 2020-02-20 01:11+0000\n"
 "PO-Revision-Date: 2017-03-15 10:18+0000\n"
 "Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-02-20 00:56+0000\n"
-"X-Generator: Launchpad (build 19413b719a8df7423ab1390528edadce9e0e4aca)\n"
+"X-Launchpad-Export-Date: 2020-06-10 22:12+0000\n"
+"X-Generator: Launchpad (build b190cebbf563f89e480a8b57f641753c8196bda0)\n"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
 #: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:348
@@ -94,16 +94,22 @@ msgid "Playing a short game of Galaxies"
 msgstr "Keskeneräinen lyhyt Galaxies-peli"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
-msgid "This is a minor translations-only release."
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
 msgstr ""
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid "This is a minor translations-only release."
+msgstr ""
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."
