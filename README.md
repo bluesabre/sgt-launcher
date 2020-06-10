@@ -2,12 +2,12 @@
 
 This application provides a single launcher for all the games in
 [Simon Tatham's Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/).
+
+![SGT Puzzles Collection window](https://screenshots.bluesabre.org/sgt-launcher/sgt-launcher-01.png)
+
 It wraps each game within the launcher window and seeks to
 add additional value to the games by adding accessible controls
 and new features.
-
-This application has been tested in Ubuntu 16.10 and later as
-well as Fedora 24.
 
 ## Build Requirements
  - gir1.2-gdkpixbuf-2.0
