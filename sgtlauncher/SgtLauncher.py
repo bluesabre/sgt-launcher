@@ -326,7 +326,7 @@ class MyAboutDialog(Gtk.AboutDialog):
         self.set_artists([
             "Pasi Lallinaho"
         ])
-        self.set_website("https://launchpad.net/sgt-launcher")
+        self.set_website("https://github.com/bluesabre/sgt-launcher")
         self.set_license_type(Gtk.License.GPL_3_0)
         self.set_version(sgtlauncher_lib.get_version())
 
@@ -424,7 +424,7 @@ class MyApplication(Gtk.Application):
 
     def bugreport_cb(self, action, parameter):
         """Take the user to the bug reporting platform"""
-        uri = "https://bugs.launchpad.net/sgt-launcher"
+        uri = "https://github.com/bluesabre/sgt-launcher/issues"
         Gtk.show_uri_on_window(self.win, uri, Gdk.CURRENT_TIME)
 
     def quit_cb(self, action, parameter):

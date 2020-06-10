@@ -292,7 +292,7 @@ DistUtilsExtra.auto.setup(
     long_description='A collection of logic games written by Simon Tatham. '
                      'This application wraps the games into an all-in-one '
                      'launcher and game suite.',
-    url='https://launchpad.net/sgt-launcher',
+    url='https://github.com/bluesabre/sgt-launcher',
     data_files=[
         ('games', ['bin/sgt-launcher']),
         ('share/man/man1', ['sgt-launcher.1']),
