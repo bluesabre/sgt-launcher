@@ -85,8 +85,8 @@ msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
 msgstr ""
-"Samlingen præsenteres som relaterede men forskelle sæt af logiske spil. "
-"Hvert spil vises i opstartervinduet med simple styringer."
+"Samlingen præsenteres som en relaterede men forskelligartet sæt logiske "
+"spil. Hvert spil vises i opstartervinduet med simple styringer."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
