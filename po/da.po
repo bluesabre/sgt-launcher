@@ -28,7 +28,7 @@ msgstr "SGT-opgavesamling"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
-msgstr "Samling af korte opgavespil"
+msgstr "Samling af hurtige opgavespil"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
