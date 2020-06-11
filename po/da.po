@@ -77,8 +77,8 @@ msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
 msgstr ""
-"SGT-spilsamling er en letanvendelig opstarter til Simon Tatham's "
-"transportable spilsamling."
+"SGT-opgavesamling er en letanvendelig opstarter til Simon Tatham's "
+"transportable opgavesamling."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
