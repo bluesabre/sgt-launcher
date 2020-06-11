@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid "This is a minor translations-only release."
-msgstr "Dette er en mindre udgivelse kun til oversættelser."
+msgstr "Det er en mindre udgivelse kun til oversættelser."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
