@@ -101,7 +101,7 @@ msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
 msgstr ""
-"Denne udgivelse indeholder forbedret spilstart og der er tilføjet "
+"Udgivelsen indeholder forbedret spilstart og der er tilføjet et "
 "fejlrapporteringslink i menuen."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
