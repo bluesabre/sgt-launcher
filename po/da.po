@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
-msgstr "Opstartsvinduet"
+msgstr "Startervinduet"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
