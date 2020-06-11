@@ -37,7 +37,7 @@ msgstr "Opstarter til Simon Tatham's transportable spilsamling"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
-msgstr "Spil;"
+msgstr "Spil;Opgaver;"
 
 #: ../sgtlauncher/SgtLauncher.py:87
 msgid "New Game"
