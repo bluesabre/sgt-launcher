@@ -113,7 +113,7 @@ msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
-"Præferencer-menupunktet er blevet fjernet og adskillige oversættelser er "
+"Menupunktet Præferencer er blevet fjernet og adskillige oversættelser er "
 "inkluderet."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
