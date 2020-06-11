@@ -86,7 +86,7 @@ msgid ""
 "Each game is displayed in the launcher window with simplified controls."
 msgstr ""
 "Samlingen præsenteres som et relaterede men forskelligartede sæt logiske "
-"spil. Hvert spil vises i opstartervinduet med simple styringer."
+"spil. Hvert spil vises i startervinduet med simple styringer."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
