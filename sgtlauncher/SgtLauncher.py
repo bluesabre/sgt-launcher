@@ -229,13 +229,13 @@ class MyWindow(Gtk.ApplicationWindow):
 
     def set_view(self, name, icon_name=None, subtitle=None):
         """Change the view, setting the icon name and subtitle"""
-        if name is "launcher":
+        if name == "launcher":
             self.stack.set_transition_type(Gtk.StackTransitionType.OVER_RIGHT)
             self.hide_actions()
-        if name is "loading":
+        if name == "loading":
             self.stack.set_transition_type(Gtk.StackTransitionType.OVER_LEFT)
             self.hide_actions()
-        if name is "game":
+        if name == "game":
             self.stack.set_transition_type(Gtk.StackTransitionType.OVER_LEFT)
             self.show_actions()
 
@@ -247,7 +247,7 @@ class MyWindow(Gtk.ApplicationWindow):
         else:
             title = "%s - %s" % (title, subtitle)
 
-        if name is not "launcher" and os.path.isfile(icon_name):
+        if name != "launcher" and os.path.isfile(icon_name):
             self.set_default_icon_from_file(icon_name)
         else:
             self.set_default_icon_name(icon_name)
@@ -257,7 +257,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
         self.get_window().set_title(title)
 
-        if name is "game":
+        if name == "game":
             self.socket.grab_focus()
         else:
             self.grab_focus()
