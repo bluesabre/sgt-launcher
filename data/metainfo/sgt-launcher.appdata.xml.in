@@ -29,7 +29,7 @@
   <url type="homepage">https://github.com/bluesabre/sgt-launcher</url>
   <url type="bugtracker">https://github.com/bluesabre/sgt-launcher/issues</url>
   <url type="donation">https://bluesabre.org/donate</url>
-  <url type="translate">https://www.transifex.com/bluesabreorg/sgt-launcher</url>
+  <url type="translate">https://www.transifex.com/bluesabreorg/sgt-puzzles-collection/</url>
 
   <provides>
     <binary>sgt-launcher</binary>
