@@ -1,3 +1,5 @@
 build/
 data/metainfo/sgt-launcher.appdata.xml
 __pycache__/
+MANIFEST
+dist/
