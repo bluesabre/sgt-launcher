@@ -295,6 +295,7 @@ DistUtilsExtra.auto.setup(
     url='https://github.com/bluesabre/sgt-launcher',
     data_files=[
         ('games', ['bin/sgt-launcher']),
+        ('share/doc/sgt-launcher', ['CHANGELOG.md']),
         ('share/man/man1', ['sgt-launcher.1']),
         ('share/metainfo', ['data/metainfo/sgt-launcher.appdata.xml'])
     ],
