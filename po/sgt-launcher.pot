@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-29 07:59-0400\n"
+"POT-Creation-Date: 2020-07-30 06:42-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,22 +89,26 @@ msgid "Playing a short game of Galaxies"
 msgstr ""
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
 msgstr ""
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid "This is a minor translations-only release."
 msgstr ""
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now "
 "links to the correct binary."

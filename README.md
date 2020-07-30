@@ -39,5 +39,5 @@ and new features.
  - [Homepage](https://github.com/bluesabre/sgt-launcher)
  - [Releases](https://github.com/bluesabre/sgt-launcher/releases)
  - [Bug Reports](https://github.com/bluesabre/sgt-launcher/issues)
- - [Translations](https://www.transifex.com/bluesabreorg/sgt-puzzles-collection/)
+ - [Translations](https://www.transifex.com/bluesabreorg/sgt-puzzles-collection)
  - [Wiki](https://github.com/bluesabre/sgt-launcher/wiki)

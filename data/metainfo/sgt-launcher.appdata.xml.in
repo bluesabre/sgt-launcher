@@ -36,6 +36,11 @@
   </provides>
 
   <releases>
+    <release version="0.2.6" date="2020-07-30">
+      <description>
+        <_p>This release includes some minor fixes and updated translations.</_p>
+      </description>
+    </release>
     <release version="0.2.5" date="2020-02-19">
       <description>
         <_p>This release features improved game launching and adds a bug reporting link to the menu.</_p>
