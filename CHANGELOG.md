@@ -36,6 +36,7 @@ Chinese (China), Danish, Lithuanian, Ukrainian
 
 - "Report a Bug..." option to the application menu
 - Application shutdown with Ctrl-C in terminal
+- Additional AppStream details
 
 ### Changed
 
@@ -46,8 +47,8 @@ Chinese (China), Danish, Lithuanian, Ukrainian
 
 ### Fixed
 
-- Fix game launching loop (LP: [#1697107](https://bugs.launchpad.net/bugs/1697107))
-- Fix appdata validation; added more information
+- Game launching loop (LP: [#1697107](https://bugs.launchpad.net/bugs/1697107))
+- AppStream validation
 
 ### Translation Updates
 
@@ -63,7 +64,7 @@ Danish, Dutch, French, Lithuanian, Portuguese
 
 ### Removed
 
-- Unused "Preferences" menu item (LP: #1686667)
+- Unused "Preferences" menu item (LP: [#1686667](https://bugs.launchpad.net/bugs/1686667))
 
 ### Translation Updates
 
@@ -73,7 +74,7 @@ Kurdish, Polish, Spanish
 
 ### Added
 
-- AppStream data
+- [AppStream](https://www.freedesktop.org/wiki/Distributions/AppStream/) data
 
 ### Fixed
 
