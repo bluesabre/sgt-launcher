@@ -1,39 +1,45 @@
-# Dutch translation for sgt-launcher
-# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
-# This file is distributed under the same license as the sgt-launcher package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sean Davis <sean@bluesabre.org>, 2020
+# Heimen Stoffels <vistausss@outlook.com>, 2020
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sgt-launcher\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-02-20 01:11+0000\n"
-"PO-Revision-Date: 2018-03-31 14:46+0000\n"
-"Last-Translator: Willem Hobers <Unknown>\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/bluesabreorg/teams/99550/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-10 22:12+0000\n"
-"X-Generator: Launchpad (build b190cebbf563f89e480a8b57f641753c8196bda0)\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:348
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:348
 msgid "SGT Puzzles Collection"
-msgstr "SGT Puzzleverzameling"
+msgstr "SGT Puzzelverzameling"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
-msgstr "Verzameling van korte puzzlespelletjes"
+msgstr "Een verzameling korte puzzelspelletjes"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
-msgstr "Starter voor Simon Tathams Draagbare Puzzleverzameling"
+msgstr "Starter voor Simon Tathams Draagbare Puzzelverzameling"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
-msgstr "Spellen;Puzzles"
+msgstr "Spellen;Puzzels;"
 
 #: ../sgtlauncher/SgtLauncher.py:87
 msgid "New Game"
@@ -49,20 +55,20 @@ msgstr "Opnieuw"
 
 #: ../sgtlauncher/SgtLauncher.py:168
 msgid "Please wait..."
-msgstr "Even geduld a.u.b.…"
+msgstr "Even geduld..."
 
 #: ../sgtlauncher/SgtLauncher.py:209
 #, python-format
 msgid "Loading %s"
-msgstr "Laden van %s"
+msgstr "Bezig met laden van %s"
 
 #: ../sgtlauncher/SgtLauncher.py:403
 msgid "About"
-msgstr "Info"
+msgstr "Over"
 
 #: ../sgtlauncher/SgtLauncher.py:404
 msgid "Report a Bug..."
-msgstr ""
+msgstr "Bug melden..."
 
 #: ../sgtlauncher/SgtLauncher.py:405
 msgid "Quit"
@@ -73,17 +79,16 @@ msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
 msgstr ""
-"SGT Puzzleverzameling is een makkelijk te gebruiken starter voor Simon "
-"Tathams Draagbare Puzzleverzameling"
+"SGT Puzzelverzameling is een eenvoudige starter voor Simon Tathams Draagbare"
+" Puzzelverzameling"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
 msgstr ""
-"De verzameling bevat een verzameling van gerelateerde maar van elkaar "
-"verschillende spellen. Elk spel wordt met simpele besturing in de starter "
-"getoond."
+"De verzameling bevat gelijkaardige, maar van elkaar verschillende, spellen. "
+"Elk spel wordt met vereenvoudigde besturing in de starter getoond."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
@@ -94,25 +99,33 @@ msgid "Playing a short game of Galaxies"
 msgstr "Speel een kort Galaxies-spel"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr "Deze uitgave bevat kleine foutoplossingen en bijgewerkte vertalingen."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
 msgstr ""
-
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
-msgid "This is a minor translations-only release."
-msgstr ""
+"Deze uitgave bevat verbeteringen omtrent het opstarten van spellen en een "
+"bugmeldingslink in hen menu."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "Dit is een kleine uitgave die alleen bijgewerkte vertalingen bevat."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
+"Het voorkeurenmenu-item is verwijderd en er zijn verschillende vertalingen "
+"toegevoegd."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
-"Non-existent launchers are no longer displayed. The application launcher now "
-"links to the correct binary."
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
 msgstr ""
 "Niet bestaande starters worden  niet langer getoond. De programmastarter "
 "verwijst nu naar het juiste programma."
