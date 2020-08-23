@@ -175,5 +175,5 @@ def is_withdrawn(window_id: int) -> bool:
                                         0, 2 ** 32 - 1).reply()
     property_value = get_property_value(property_reply)
     c.disconnect()
-    withdrawn = not property_reply or property_value[0] == 0
+    withdrawn = not property_value or property_value[0] == 0
     return withdrawn
