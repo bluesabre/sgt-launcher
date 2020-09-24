@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020\n"
+"Language-Team: Malay (https://www.transifex.com/bluesabreorg/teams/99550/ms/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:348
+msgid "SGT Puzzles Collection"
+msgstr "Himpunan Teka-Teki SGT"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Himpunan permainan teka-teki yang pendek"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "Pelancar untuk Himpunan Teka-Teki Mudah Alih milik Simon Tatham"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Permainan;Teka-teki;"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "New Game"
+msgstr "Permainan Baharu"
+
+#: ../sgtlauncher/SgtLauncher.py:89
+msgid "Undo"
+msgstr "Buat Asal"
+
+#: ../sgtlauncher/SgtLauncher.py:90
+msgid "Redo"
+msgstr "Buat Semula"
+
+#: ../sgtlauncher/SgtLauncher.py:168
+msgid "Please wait..."
+msgstr "Sila tunggu…"
+
+#: ../sgtlauncher/SgtLauncher.py:209
+#, python-format
+msgid "Loading %s"
+msgstr "Memuatkan %s"
+
+#: ../sgtlauncher/SgtLauncher.py:403
+msgid "About"
+msgstr "Perihal"
+
+#: ../sgtlauncher/SgtLauncher.py:404
+msgid "Report a Bug..."
+msgstr "Laporkan Pepijat…"
+
+#: ../sgtlauncher/SgtLauncher.py:405
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"Himpunan Teka-Teki SGT ialah pelancar yang mudah untuk digunakan bagi "
+"Himpunan Teka-Teki Mudah Alih milik Simon Tatham."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"Himpunan ditunjukkan sebagai set permainan logik yang berkaitan tetapi "
+"pelbagai. Setiap permainan dipaparkan di tetingkap pelancar dengan menu "
+"kawalan yang dipermudahkan."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "Tetingkap pelancar"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Bermain permainan pendek bernama Galaxies"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"Terbitan ini mempunyai beberapa pembaikian kecil dan pengemaskinian "
+"terjemahan."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
+msgstr ""
+"Terbitan ini mengetengahkan pelancaran permainan yang ditambahbaik dan "
+"menambah pautan pelaporan pepijat ke dalam menu."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "Ini terbitan kecil yang hanya mengandungi kemaskini terjemahan."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+"Item menu Keutamaan telah dibuang dan beberapa terjemahan telah disertakan."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
+msgstr ""
+"Pelancar yang tidak wujud kini tidak akan dipaparkan lagi. Pelancar aplikasi"
+" kini dipautkan ke perduaan yang betul."
