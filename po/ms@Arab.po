@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020\n"
+"Language-Team: Malay (Arabic) (https://www.transifex.com/bluesabreorg/teams/99550/ms@Arab/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms@Arab\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:348
+msgid "SGT Puzzles Collection"
+msgstr "هيمڤونن تکا-تکي SGT"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "هيمڤونن ڤرماٴينن تکا-تکي يڠ ڤينديق"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "ڤلنچر اونتوق هيمڤونن تکا-تکي موده اليه ميليق Simon Tatham"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "ڤرماٴينن;تکا-تکي;"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "New Game"
+msgstr "ڤرماٴينن بهارو"
+
+#: ../sgtlauncher/SgtLauncher.py:89
+msgid "Undo"
+msgstr "بوات اصل"
+
+#: ../sgtlauncher/SgtLauncher.py:90
+msgid "Redo"
+msgstr "بوات سمولا"
+
+#: ../sgtlauncher/SgtLauncher.py:168
+msgid "Please wait..."
+msgstr "سيلا توڠݢو..."
+
+#: ../sgtlauncher/SgtLauncher.py:209
+#, python-format
+msgid "Loading %s"
+msgstr "ممواتکن %s"
+
+#: ../sgtlauncher/SgtLauncher.py:403
+msgid "About"
+msgstr "ڤريهل"
+
+#: ../sgtlauncher/SgtLauncher.py:404
+msgid "Report a Bug..."
+msgstr "لاڤورکن ڤڤيجت..."
+
+#: ../sgtlauncher/SgtLauncher.py:405
+msgid "Quit"
+msgstr "کلوار"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"هيمڤونن تکا-تکي SGT اياله ڤلنچر يڠ موده اونتوق دݢوناکن باݢي هيمڤونن تکا-تکي "
+"موده اليه ميليق Simon Tatham."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"هيمڤونن دتونجوقکن سباݢاي سيت ڤرماٴينن لوݢيک يڠ برکاٴيتن تتاڤي ڤلباݢاي. ستياڤ"
+" ڤرماٴينن دڤاڤرکن دتتيڠکڤ ڤلنچر دڠن مينو کاولن يڠ دڤرمودهکن."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "تتيڠکڤ ڤلنچر"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "برماٴين ڤرماٴينن ڤينديق برنام Galaxies"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr "تربيتن اين ممڤوڽاٴي ببراڤ ڤمباٴيقين کچيل دان ڤڠمسکينين ترجمهن."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
+msgstr ""
+"تربيتن اين مڠتڠهکن ڤلنچرن ڤرماٴينن يڠ دتمبهباٴيق دان منمبه ڤاٴوتن ڤلاڤورن "
+"کدالم مينو."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "اين تربيتن کچيل يڠ هاڽ مڠندوڠي کمسکيني ترجمهن."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr "ايتم مينو کأوتاماٴن تله دبواڠ دان ببراڤ ترجمهن تله دسرتاکن."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
+msgstr ""
+"ڤلنچر يڠ تيدق وجود کيني تيدق اکن دڤاڤرکن لاݢي. ڤلنچر اڤليکاسي کيني دڤاٴوتکن "
+"کڤردواٴن يڠ بتول."
