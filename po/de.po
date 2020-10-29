@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Vinzenz Vietzke <vinz@vinzv.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Vinzenz Vietzke <vinz@vinzv.de>, 2020\n"
+"Language-Team: German (https://www.transifex.com/bluesabreorg/teams/99550/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:348
+msgid "SGT Puzzles Collection"
+msgstr "SGT Puzzles Collection"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Sammlung kurzer Puzzlespiele"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "Starter für Simon Tathams Portable Puzzle Collection"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Spiele;Puzzles;"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "New Game"
+msgstr "Neues Spiel"
+
+#: ../sgtlauncher/SgtLauncher.py:89
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: ../sgtlauncher/SgtLauncher.py:90
+msgid "Redo"
+msgstr "Wiederholen"
+
+#: ../sgtlauncher/SgtLauncher.py:168
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: ../sgtlauncher/SgtLauncher.py:209
+#, python-format
+msgid "Loading %s"
+msgstr "Lade %s"
+
+#: ../sgtlauncher/SgtLauncher.py:403
+msgid "About"
+msgstr "Über"
+
+#: ../sgtlauncher/SgtLauncher.py:404
+msgid "Report a Bug..."
+msgstr "Einen Fehler melden..."
+
+#: ../sgtlauncher/SgtLauncher.py:405
+msgid "Quit"
+msgstr "Beenden"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"SGT Puzzles Collection ist ein einfach zu bedienender Starter für Simon "
+"Tathams Portable Puzzle Collection."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"Die Sammlung präsentiert sich als eine Reihe von verwandten, aber dennoch "
+"vielfältigen Logikspielen. Jedes Spiel wird im Starter-Fenster mit einer "
+"vereinfachten Steuerung angezeigt."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "Das Starter-Fenster"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Ein kurzes Spiel mit Galaxien spielen"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"Diese Version enthält einige kleinere Korrekturen und aktualisierte "
+"Übersetzungen."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
+msgstr ""
+"Diese Version bietet einen verbesserten Spielstart und fügt dem Menü einen "
+"Link zum Melden von Fehlern hinzu."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "Dies ist eine kleinere Version, die nur Übersetzungen enthält."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+"Der Menüpunkt \"Voreinstellungen\" wurde entfernt und mehrere Übersetzungen "
+"wurden hinzugefügt."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
+msgstr ""
+"Nicht existierende Starter werden nicht mehr angezeigt. Der "
+"Anwendungsstarter verweist nun auf die richtige Binärdatei."
