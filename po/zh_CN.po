@@ -5,6 +5,7 @@
 # 
 # Translators:
 # 玉堂白鹤 <yjwork@qq.com>, 2020
+# penghui Cai <Caipenghui_c@163.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-30 06:54-0400\n"
 "PO-Revision-Date: 2020-06-10 22:25+0000\n"
-"Last-Translator: 玉堂白鹤 <yjwork@qq.com>, 2020\n"
+"Last-Translator: penghui Cai <Caipenghui_c@163.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/bluesabreorg/teams/99550/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
 #: ../sgtlauncher/SgtLauncher.py:348
 msgid "SGT Puzzles Collection"
-msgstr "SGT 益智合集"
+msgstr "SGT 益智集合"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
@@ -77,7 +78,7 @@ msgstr "退出"
 msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
-msgstr "SGT 益智合集是 Simon Tatham 的可移植益智合集的简易启动器。"
+msgstr "SGT 益智合集是 Simon Tatham 的可移植益智集合的简易启动器。"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
@@ -105,7 +106,7 @@ msgstr "这个版本的特点是改进了游戏启动，并在菜单中添加了
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid "This is a minor translations-only release."
-msgstr "这只是一个翻译更新版本。"
+msgstr "这是一个次要的翻译更新版本。"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid ""
