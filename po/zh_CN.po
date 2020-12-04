@@ -78,7 +78,7 @@ msgstr "退出"
 msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
-msgstr "SGT 益智合集是 Simon Tatham 的可移植益智集合的简易启动器。"
+msgstr "SGT 益智集合是 Simon Tatham 的可移植益智集合的简易启动器。"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
