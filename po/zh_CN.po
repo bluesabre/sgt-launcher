@@ -35,7 +35,7 @@ msgstr "益智小游戏集合"
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
-msgstr "Simon Tatham 可移植益智合集的简易启动器"
+msgstr "Simon Tatham 可移植益智集合的简易启动器"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
