@@ -30,7 +30,7 @@ msgstr "SGT 益智集合"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
-msgstr "益智小游戏合集"
+msgstr "益智小游戏集合"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
