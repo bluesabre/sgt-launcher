@@ -84,7 +84,7 @@ msgstr "SGT 益智集合是 Simon Tatham 的可移植益智集合的简易启动
 msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
-msgstr "该合集以一组相关但多样的逻辑游戏形式呈现。每个游戏都以简化的控件显示在启动器窗口中。"
+msgstr "该集合以一组相关但多样的逻辑游戏形式呈现。每个游戏都以简化的控件显示在启动器窗口中。"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
