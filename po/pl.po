@@ -1,23 +1,30 @@
-# MARCIN MIKOŁAJCZAK <m4sk1n@vivaldi.net>, 2017.
-# Translation of sgt-launcher in Polish
-# This file is distributed under the same license as the sgt-launcher package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sean Davis <sean@bluesabre.org>, 2020
+# Waldemar Stoczkowski, 2020
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sgt-launcher\n"
-"Report-Msgid-Bugs-To: <m4sk1n@vivaldi.net>, m4sk1n on Freenode\n"
-"POT-Creation-Date: 2020-02-20 01:11+0000\n"
-"PO-Revision-Date: 2017-07-05 22:24+0000\n"
-"Last-Translator: Piotr Sokół <Unknown>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Waldemar Stoczkowski, 2020\n"
+"Language-Team: Polish (https://www.transifex.com/bluesabreorg/teams/99550/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-10 22:12+0000\n"
-"X-Generator: Launchpad (build b190cebbf563f89e480a8b57f641753c8196bda0)\n"
 "Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:348
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:348
 msgid "SGT Puzzles Collection"
 msgstr "Kolekcja gier logicznych SGT"
 
@@ -61,7 +68,7 @@ msgstr "O programie"
 
 #: ../sgtlauncher/SgtLauncher.py:404
 msgid "Report a Bug..."
-msgstr ""
+msgstr "Zgłoś błąd..."
 
 #: ../sgtlauncher/SgtLauncher.py:405
 msgid "Quit"
@@ -80,8 +87,8 @@ msgid ""
 "The collection is presented as a related but diverse set of logic games. "
 "Each game is displayed in the launcher window with simplified controls."
 msgstr ""
-"Kolekcja zawiera różnorodne gry logiczne. Każda jest wyświetlana w tym oknie "
-"z uproszczonym sterowaniem."
+"Kolekcja zawiera różnorodne gry logiczne. Każda jest wyświetlana w tym oknie"
+" z uproszczonym sterowaniem."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
 msgid "The launcher window"
@@ -92,25 +99,32 @@ msgid "Playing a short game of Galaxies"
 msgstr "Krótka rozgrywka w Galaxies"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"To wydanie zawiera kilka drobnych poprawek i zaktualizowanych tłumaczeń."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
 msgstr ""
-
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
-msgid "This is a minor translations-only release."
-msgstr ""
+"Ta wersja zawiera ulepszone uruchamianie gry i dodaje link do zgłaszania "
+"błędów do menu."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
-msgid ""
-"The Preferences menu item has been removed and several translations have "
-"been included."
-msgstr ""
+msgid "This is a minor translations-only release."
+msgstr "To jest niewielkie wydanie tylko tłumaczenia."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid ""
-"Non-existent launchers are no longer displayed. The application launcher now "
-"links to the correct binary."
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr "Element menu Preferencje został usunięty i dołączono kilka tłumaczeń."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
 msgstr ""
 "Nieistniejące skróty nie są już wyświetlane. Program uruchamiający kieruje "
 "teraz do prawidłowych plików."
