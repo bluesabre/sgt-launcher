@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luna Jernberg <bittin@cafe8bitar.se>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>, 2021\n"
+"Language-Team: Swedish (https://www.transifex.com/bluesabreorg/teams/99550/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:348
+msgid "SGT Puzzles Collection"
+msgstr "SGT Pusselsamling"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Samling av korta pusselspel"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "Startare för Simon Tathams portabla pusselsamling"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Spel;Pussel;"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "New Game"
+msgstr "Nytt spel"
+
+#: ../sgtlauncher/SgtLauncher.py:89
+msgid "Undo"
+msgstr "Ångra"
+
+#: ../sgtlauncher/SgtLauncher.py:90
+msgid "Redo"
+msgstr "Gör om"
+
+#: ../sgtlauncher/SgtLauncher.py:168
+msgid "Please wait..."
+msgstr "Vänta..."
+
+#: ../sgtlauncher/SgtLauncher.py:209
+#, python-format
+msgid "Loading %s"
+msgstr "Laddar %s"
+
+#: ../sgtlauncher/SgtLauncher.py:403
+msgid "About"
+msgstr "Om"
+
+#: ../sgtlauncher/SgtLauncher.py:404
+msgid "Report a Bug..."
+msgstr "Rapportera en bugg..."
+
+#: ../sgtlauncher/SgtLauncher.py:405
+msgid "Quit"
+msgstr "Avsluta"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"SGT Pusselsamling är en startare som är enkel att använda för Simon Tathams "
+"portabla pusselsamling."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"Samlingen presenteras som en relaterad men mångsidig uppsättning logikspel. "
+"Varje spel visas i startfönstret med förenklade kontroller."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "Startfönstret"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Spela en kort omgång av Galaxies"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"Denna version innehåller några mindre korrigeringar och uppdaterade "
+"översättningar."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
+msgstr ""
+"Denna version har förbättrad spelstart och lägger till en länk till "
+"felrapportering i menyn."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "Detta är en mindre version endast med nya översättningar."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+"Menyalternativet Inställningar har tagits bort och flera översättningar har "
+"inkluderats."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
+msgstr ""
+"Icke-existerande startare visas inte längre. Applikationsstartaren länkar nu"
+" till rätt binär."
