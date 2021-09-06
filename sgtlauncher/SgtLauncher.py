@@ -446,10 +446,12 @@ class MyApplication(Gtk.Application):
     def get_launchers(self):
         """Get localized launcher contents"""
         flags = GLib.KeyFileFlags.NONE
-        launchers = []
+        prefixed = {}
         for game in self.GAMES:
-            for prefix in ["sgt", "puzzle"]:
-                launcher = "applications/%s-%s.desktop" % (prefix, game)
+            for prefix in ["sgt-", "puzzle-", ""]:
+                if prefix not in prefixed.keys():
+                    prefixed[prefix] = []
+                launcher = "applications/%s%s.desktop" % (prefix, game)
                 keyfile = GLib.KeyFile.new()
                 try:
                     if (keyfile.load_from_data_dirs(launcher, flags)):
@@ -460,9 +462,13 @@ class MyApplication(Gtk.Application):
                             keyfile.get_value("Desktop Entry", "Exec"),
                         ]
                         if self.exists_in_path(data[3]):
-                            launchers.append(data)
+                            prefixed[prefix].append(data)
                     break
                 except GLib.Error:
                     pass
+        launchers = []
+        for items in prefixed.values():
+            if len(items) > len(launchers):
+                launchers = items
         launchers.sort()
         return launchers
