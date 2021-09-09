@@ -38,9 +38,17 @@ class SgtSocketLauncher:
         self.embeddable = self.get_embeddable()
 
     def get_embeddable(self):
+        # Windows are not socketable under Wayland
         wayland = os.environ.get("WAYLAND_DISPLAY")
-        if wayland != None:
+        if wayland is not None:
             return False
+        
+        # GNOME doesn't allow for embedded window focus (sgt-launcher#7)
+        desktop = os.environ.get("XDG_CURRENT_DESKTOP")
+        if desktop is not None:
+            if "gnome" in desktop.lower():
+                return False
+
         return True
 
     def launch(self, socket: "Gtk.Socket", process: "subprocess.Popen",
