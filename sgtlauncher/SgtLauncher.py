@@ -200,6 +200,12 @@ class MyWindow(Gtk.ApplicationWindow):
 
     def launch(self, title, icon_name, path):
         """Launch the specified application"""
+        if self.launcher.embeddable:
+            self.embedded_launch(title, icon_name, path)
+        else:
+            self.unembedded_launch(title, icon_name, path)
+
+    def embedded_launch(self, title, icon_name, path):
         # Toggle GTK_CSD=0 to guarantee embedding
         csd_env = os.environ.copy()
         csd_env["GTK_CSD"] = "0"
@@ -218,10 +224,45 @@ class MyWindow(Gtk.ApplicationWindow):
 
         def on_success():
             self.set_view("game", icon_name, title)
+
+        def on_error():
+            return self.back_to_launcher()
+
         self.launcher.launch(self.socket, self.game_process,
-                             on_success, self.back_to_launcher)
+                             on_success, on_error)
+
+    def unembedded_launch(self, title, icon_name, path):
+        subtitle = _("Loading %s") % title
+
+        if os.path.isfile(icon_name):
+            self.launching_image.set_from_file(icon_name)
+        else:
+            self.launching_image.set_from_icon_name(icon_name,
+                                                    Gtk.IconSize.DIALOG)
+        self.launching_title.set_markup("<b>%s</b>" % title)
+        self.set_view("loading", icon_name, subtitle)
+
+        def poll_process():
+            res = GLib.SOURCE_CONTINUE
+            if self.game_process is None:
+                res = GLib.SOURCE_REMOVE
+            if self.game_process.poll() is not None:
+                res = GLib.SOURCE_REMOVE
+            if res == GLib.SOURCE_REMOVE:
+                self.back_to_launcher()
+            return res
+
+        def launch_game():
+            self.game_process = subprocess.Popen([path])
+            self.hide()
+            GLib.timeout_add(200, poll_process)
+            return GLib.SOURCE_REMOVE
+
+        GLib.timeout_add(500, launch_game)
 
     def back_to_launcher(self):
+        if not self.launcher.embeddable:
+            self.show()
         if self.game_process is not None:
             self.game_process.terminate()
             self.game_process = None

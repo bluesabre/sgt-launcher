@@ -13,6 +13,7 @@
 #   You should have received a copy of the GNU General Public License along
 #   with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import os
 import struct
 import time
 import typing
@@ -34,6 +35,13 @@ class SgtSocketLauncher:
         self.retry_timer = 0.05
         self.process = None
         self.window_id = None
+        self.embeddable = self.get_embeddable()
+
+    def get_embeddable(self):
+        wayland = os.environ.get("WAYLAND_DISPLAY")
+        if wayland != None:
+            return False
+        return True
 
     def launch(self, socket: "Gtk.Socket", process: "subprocess.Popen",
                on_success: typing.Callable[[], None],
