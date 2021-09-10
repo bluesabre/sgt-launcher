@@ -42,7 +42,13 @@ class SgtSocketLauncher:
         wayland = os.environ.get("WAYLAND_DISPLAY")
         if wayland is not None:
             return False
-        
+
+        # Flatpak seems to block embedding (sgt-launcher#8)
+        container = os.environ.get("container")
+        if container is not None:
+            if container == "flatpak":
+                return False
+
         # GNOME doesn't allow for embedded window focus (sgt-launcher#7)
         desktop = os.environ.get("XDG_CURRENT_DESKTOP")
         if desktop is not None:
