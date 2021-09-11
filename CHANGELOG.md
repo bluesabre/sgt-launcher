@@ -5,15 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.2.7] - 2021-09-11
 
 ### Added
-### Changed
-### Deprecated
-### Removed
+
+- Non-embedded mode for unsupported environments (GNOME, Flatpak, and Wayland),
+  can be toggled with the `SGT_ENABLE_EMBED` environment variable.
+
 ### Fixed
-### Security
+
+- Incorrect handling of withdrawn windows (#1)
+- Game screens are frozen in GNOME (#3)
+- Mouse clicks not recognized in GNOME (#7)
+- Game launchers refuse to embed in Flatpak (#8)
+- Empty launchers panel in Arch (#9)
+
 ### Translation Updates
+
+Chinese (China), Danish, Dutch, German, Malay, Malay (Arabic), Polish, Swedish
 
 ## [0.2.6] - 2020-07-30
 
@@ -48,7 +57,7 @@ Chinese (China), Danish, Lithuanian, Ukrainian
 
 - Move to RDN-format (sgt-launcher.desktop to org.bluesabre.SgtLauncher.desktop)
   for appdata and the launcher
-  - Source installations may result in duplicate .desktop files, just delete 
+  - Source installations may result in duplicate .desktop files, just delete
     sgt-launcher.desktop)
 
 ### Fixed
@@ -111,7 +120,8 @@ Kurdish, Polish, Spanish
 
 - Initial release
 
-[unreleased]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.6...HEAD
+[unreleased]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.7...HEAD
+[0.2.7]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.6...sgt-launcher-0.2.7
 [0.2.6]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.5...sgt-launcher-0.2.6
 [0.2.5]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.4...sgt-launcher-0.2.5
 [0.2.4]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.3...sgt-launcher-0.2.4
