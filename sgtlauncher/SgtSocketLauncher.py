@@ -38,6 +38,10 @@ class SgtSocketLauncher:
         self.embeddable = self.get_embeddable()
 
     def get_embeddable(self):
+        override = os.environ.get("SGT_ENABLE_EMBED")
+        if override is not None:
+            return override == "1"
+
         # Windows are not socketable under Wayland
         wayland = os.environ.get("WAYLAND_DISPLAY")
         if wayland is not None:
