@@ -13,6 +13,7 @@
 #   You should have received a copy of the GNU General Public License along
 #   with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import os
 import struct
 import time
 import typing
@@ -34,6 +35,31 @@ class SgtSocketLauncher:
         self.retry_timer = 0.05
         self.process = None
         self.window_id = None
+        self.embeddable = self.get_embeddable()
+
+    def get_embeddable(self):
+        override = os.environ.get("SGT_ENABLE_EMBED")
+        if override is not None:
+            return override == "1"
+
+        # Windows are not socketable under Wayland
+        wayland = os.environ.get("WAYLAND_DISPLAY")
+        if wayland is not None:
+            return False
+
+        # Flatpak seems to block embedding (sgt-launcher#8)
+        container = os.environ.get("container")
+        if container is not None:
+            if container == "flatpak":
+                return False
+
+        # GNOME doesn't allow for embedded window focus (sgt-launcher#7)
+        desktop = os.environ.get("XDG_CURRENT_DESKTOP")
+        if desktop is not None:
+            if "gnome" in desktop.lower():
+                return False
+
+        return True
 
     def launch(self, socket: "Gtk.Socket", process: "subprocess.Popen",
                on_success: typing.Callable[[], None],
