@@ -1,24 +1,30 @@
-# French translation for sgt-launcher
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
-# This file is distributed under the same license as the sgt-launcher package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sean Davis <sean@bluesabre.org>, 2020
+# Benoit THIBAUD <frombenny@gmail.com>, 2021
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sgt-launcher\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-02-20 01:11+0000\n"
-"PO-Revision-Date: 2017-10-30 16:18+0000\n"
-"Last-Translator: Teromene <teromene@gmail.com>\n"
-"Language-Team: French <fr@li.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-11 03:38-0700\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Benoit THIBAUD <frombenny@gmail.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/bluesabreorg/teams/99550/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-10 22:12+0000\n"
-"X-Generator: Launchpad (build b190cebbf563f89e480a8b57f641753c8196bda0)\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../org.bluesabre.SgtLauncher.desktop.in.h:1 ../sgtlauncher/SgtLauncher.py:39
-#: ../sgtlauncher/SgtLauncher.py:73 ../sgtlauncher/SgtLauncher.py:348
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:389
 msgid "SGT Puzzles Collection"
 msgstr "Collection de puzzles SGT"
 
@@ -51,20 +57,20 @@ msgstr "Rétablir"
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
 
-#: ../sgtlauncher/SgtLauncher.py:209
+#: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
 msgid "Loading %s"
 msgstr "Chargement de %s"
 
-#: ../sgtlauncher/SgtLauncher.py:403
+#: ../sgtlauncher/SgtLauncher.py:444
 msgid "About"
 msgstr "À propos"
 
-#: ../sgtlauncher/SgtLauncher.py:404
+#: ../sgtlauncher/SgtLauncher.py:445
 msgid "Report a Bug..."
-msgstr ""
+msgstr "Signaler un bug..."
 
-#: ../sgtlauncher/SgtLauncher.py:405
+#: ../sgtlauncher/SgtLauncher.py:446
 msgid "Quit"
 msgstr "Quitter"
 
@@ -94,26 +100,34 @@ msgid "Playing a short game of Galaxies"
 msgstr "Joue un jeu court de Galaxies"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"Cette version comprend quelques corrections mineures et des traductions "
+"mises à jour."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
 msgstr ""
-
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
-msgid "This is a minor translations-only release."
-msgstr ""
+"Cette version améliore le lancement des jeux et ajoute un lien de "
+"signalement des bogues dans le menu."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "Il s'agit d'une version mineure uniquement pour les traductions."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 "Le menu préférences a été supprimé, et des traductions ont étés incluses."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
-"Non-existent launchers are no longer displayed. The application launcher now "
-"links to the correct binary."
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
 msgstr ""
 "Les lanceurs non-existants ne sont plus affichés. Le lanceur de "
 "l'application pointe désormais vers les binaires corrects."
