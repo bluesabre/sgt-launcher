@@ -35,7 +35,7 @@ msgstr "Colecção de pequenos jogos quebra-cabeças"
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
-msgstr "Lançador para a colecção portátil de quebra-cabeças de  Simon Tatham"
+msgstr "Lançador para a coleção portátil de quebra-cabeças de  Simon Tatham"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
