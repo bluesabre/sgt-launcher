@@ -55,7 +55,7 @@ msgstr "Refazer"
 
 #: ../sgtlauncher/SgtLauncher.py:168
 msgid "Please wait..."
-msgstr "Aguarde por favor..."
+msgstr "Aguarde..."
 
 #: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
