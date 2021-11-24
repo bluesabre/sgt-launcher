@@ -43,7 +43,7 @@ msgstr "Jogos;Quebra-cabeças;"
 
 #: ../sgtlauncher/SgtLauncher.py:87
 msgid "New Game"
-msgstr "Novo Jogo"
+msgstr "Novo jogo"
 
 #: ../sgtlauncher/SgtLauncher.py:89
 msgid "Undo"
