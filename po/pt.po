@@ -79,7 +79,7 @@ msgid ""
 "SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
 "Portable Puzzle Collection."
 msgstr ""
-"Colecção Quebra-cabeças SGT é um lançador simples de usar para a colecção "
+"O Coleção Quebra-cabeças SGT é um lançador simples de usar para a coleção "
 "portátil de quebra-cabeças de Simon Tatham"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
