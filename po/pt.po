@@ -30,7 +30,7 @@ msgstr "Colecção Quebra-cabeças SGT"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
-msgstr "Coleccção de pequenos jogos quebra-cabeças"
+msgstr "Colecção de pequenos jogos quebra-cabeças"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
