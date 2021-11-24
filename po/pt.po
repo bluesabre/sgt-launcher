@@ -97,7 +97,7 @@ msgstr "A janela do lançador"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
 msgid "Playing a short game of Galaxies"
-msgstr "Jogando um curto jogo de Galaxies"
+msgstr "Jogar um pequeno jogo de Galáxias"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
 msgid "This release includes some minor fixes and updated translations."
