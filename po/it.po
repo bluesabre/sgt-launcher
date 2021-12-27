@@ -34,7 +34,7 @@ msgstr "Raccolta di brevi giochi di puzzle"
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:3
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
-msgstr "Launcher per la collezione di puzzle portatili di Simon Tatham"
+msgstr "Lanciatore per la collezione di puzzle portatili di Simon Tatham"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
