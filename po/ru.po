@@ -35,7 +35,7 @@ msgstr "Сборник коротких головоломок"
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
 msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
 msgstr ""
-"Пусковая установка для коллекции портативных головоломок Саймона Тэтхема"
+"Программа для запуска коллекции портативных головоломок Саймона Тэтхема"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
