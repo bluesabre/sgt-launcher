@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sergey A., 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-11 03:38-0700\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Sergey A., 2022\n"
+"Language-Team: Russian (https://www.transifex.com/bluesabreorg/teams/99550/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:389
+msgid "SGT Puzzles Collection"
+msgstr "Сборник головоломок SGT"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Сборник коротких головоломок"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr ""
+"Пусковая установка для коллекции портативных головоломок Саймона Тэтхема"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Games;Puzzles;Игры;Головоломки;"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "New Game"
+msgstr "Новая игра"
+
+#: ../sgtlauncher/SgtLauncher.py:89
+msgid "Undo"
+msgstr "Отменить"
+
+#: ../sgtlauncher/SgtLauncher.py:90
+msgid "Redo"
+msgstr "Повторить"
+
+#: ../sgtlauncher/SgtLauncher.py:168
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
+#, python-format
+msgid "Loading %s"
+msgstr "Загружается %s"
+
+#: ../sgtlauncher/SgtLauncher.py:444
+msgid "About"
+msgstr "О приложении"
+
+#: ../sgtlauncher/SgtLauncher.py:445
+msgid "Report a Bug..."
+msgstr "Сообщить об ошибке..."
+
+#: ../sgtlauncher/SgtLauncher.py:446
+msgid "Quit"
+msgstr "Выйти"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"SGT Puzzles Collection — это простая в использовании программа для запуска "
+"портативной коллекции головоломок Саймона Тэтхема."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"Сборник представлен в виде взаимосвязанного, но разнообразного набора "
+"логических игр."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "Окно запуска"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Играть в короткую игру «Галактики»"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"Этот выпуск включает в себя незначительные исправления и обновленные "
+"переводы."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
+msgstr ""
+"В этом выпуске улучшен запуск игр и в меню добавлена ссылка для создания "
+"сообщения об ошибках."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid "This is a minor translations-only release."
+msgstr "Это минорный выпуск содержит только обновления переводов."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr "В меню был удалён пункт «Настройки», добавлено несколько переводов."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
+msgstr ""
+"Несуществующие лаунчеры больше не отображаются. Тнперь программа запуска "
+"приложений ссылается на правильный двоичный файл."
