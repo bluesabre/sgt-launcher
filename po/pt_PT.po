@@ -79,7 +79,7 @@ msgid ""
 "Portable Puzzle Collection."
 msgstr ""
 "O Coleção Quebra-cabeças SGT é um lançador simples de usar para a coleção "
-"portátil de quebra-cabeças de Simon Tatham"
+"portátil de quebra-cabeças de Simon Tatham."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
