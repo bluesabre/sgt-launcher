@@ -25,7 +25,7 @@ msgstr ""
 #: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
 #: ../sgtlauncher/SgtLauncher.py:389
 msgid "SGT Puzzles Collection"
-msgstr "Coleção de puzzles SGT"
+msgstr "Coleção de Quebra-cabeças SGT"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:2
 msgid "Collection of short puzzle games"
