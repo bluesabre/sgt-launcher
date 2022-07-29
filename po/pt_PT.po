@@ -38,7 +38,7 @@ msgstr "Lançador para a coleção portátil de quebra-cabeças de Simon Tatham"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:4
 msgid "Games;Puzzles;"
-msgstr "Jogos;Puzzles;"
+msgstr "Jogos;Puzzles;Quebra-cabeças;"
 
 #: ../sgtlauncher/SgtLauncher.py:87
 msgid "New Game"
