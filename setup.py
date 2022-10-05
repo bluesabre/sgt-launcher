@@ -55,6 +55,7 @@ def build_launchers():
             'magnets',
             'map',
             'mines',
+            'mosaic',
             'net',
             'netslide',
             'palisade',

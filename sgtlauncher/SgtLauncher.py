@@ -405,6 +405,7 @@ class MyApplication(Gtk.Application):
         'magnets',
         'map',
         'mines',
+        'mosaic',
         'net',
         'netslide',
         'palisade',
