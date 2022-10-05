@@ -5,15 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.2.8] - 2022-10-04
 
 ### Added
-### Changed
-### Deprecated
-### Removed
-### Fixed
-### Security
+
+- Added support for new game, Mosaic (#12)
+
 ### Translation Updates
+
+French, Italian, Portuguese, Portuguese (Portugal), Russian, Turkish
 
 ## [0.2.7] - 2021-09-11
 
@@ -130,7 +130,8 @@ Kurdish, Polish, Spanish
 
 - Initial release
 
-[unreleased]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.7...HEAD
+[unreleased]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.8...HEAD
+[0.2.8]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.7...sgt-launcher-0.2.8
 [0.2.7]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.6...sgt-launcher-0.2.7
 [0.2.6]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.5...sgt-launcher-0.2.6
 [0.2.5]: https://github.com/bluesabre/sgt-launcher/compare/sgt-launcher-0.2.4...sgt-launcher-0.2.5

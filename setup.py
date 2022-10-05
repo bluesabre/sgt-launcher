@@ -285,7 +285,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
 
 DistUtilsExtra.auto.setup(
     name='sgt-launcher',
-    version='0.2.7',
+    version='0.2.8',
     license='GPL-3+',
     author='Sean Davis',
     author_email='sean@bluesabre.org',

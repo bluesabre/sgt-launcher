@@ -36,6 +36,11 @@
   </provides>
 
   <releases>
+    <release version="0.2.8" date="2022-10-04">
+      <description>
+        <_p>This release adds support for the "Mosaic" game and features updated translations.</_p>
+      </description>
+    </release>
     <release version="0.2.7" date="2021-09-11">
       <description>
         <_p>This release includes improved support for various desktop environments and updated translations.</_p>
