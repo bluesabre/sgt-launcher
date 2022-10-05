@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020
+# Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <admin@mnh48.moe>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"POT-Creation-Date: 2022-10-04 21:32-0400\n"
 "PO-Revision-Date: 2020-06-10 22:25+0000\n"
-"Last-Translator: Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020\n"
+"Last-Translator: Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <admin@mnh48.moe>, 2022\n"
 "Language-Team: Malay (Arabic) (https://www.transifex.com/bluesabreorg/teams/99550/ms@Arab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1
 #: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
-#: ../sgtlauncher/SgtLauncher.py:348
+#: ../sgtlauncher/SgtLauncher.py:389
 msgid "SGT Puzzles Collection"
 msgstr "هيمڤونن تکا-تکي SGT"
 
@@ -56,20 +56,20 @@ msgstr "بوات سمولا"
 msgid "Please wait..."
 msgstr "سيلا توڠݢو..."
 
-#: ../sgtlauncher/SgtLauncher.py:209
+#: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
 msgid "Loading %s"
 msgstr "ممواتکن %s"
 
-#: ../sgtlauncher/SgtLauncher.py:403
+#: ../sgtlauncher/SgtLauncher.py:445
 msgid "About"
 msgstr "ڤريهل"
 
-#: ../sgtlauncher/SgtLauncher.py:404
+#: ../sgtlauncher/SgtLauncher.py:446
 msgid "Report a Bug..."
 msgstr "لاڤورکن ڤڤيجت..."
 
-#: ../sgtlauncher/SgtLauncher.py:405
+#: ../sgtlauncher/SgtLauncher.py:447
 msgid "Quit"
 msgstr "کلوار"
 
@@ -98,10 +98,18 @@ msgid "Playing a short game of Galaxies"
 msgstr "برماٴين ڤرماٴينن ڤينديق برنام Galaxies"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"This release includes improved support for various desktop environments and "
+"updated translations."
+msgstr ""
+"تربيتن اين مڽرتاکن سوکوڠن يڠ دڤرباٴيق اونتوق ڤلباݢاي سکيترن اتس ميجا دان کمس"
+" کيني ترجمهن."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid "This release includes some minor fixes and updated translations."
 msgstr "تربيتن اين ممڤوڽاٴي ببراڤ ڤمباٴيقين کچيل دان ڤڠمسکينين ترجمهن."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
@@ -109,17 +117,17 @@ msgstr ""
 "تربيتن اين مڠتڠهکن ڤلنچرن ڤرماٴينن يڠ دتمبهباٴيق دان منمبه ڤاٴوتن ڤلاڤورن "
 "کدالم مينو."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid "This is a minor translations-only release."
 msgstr "اين تربيتن کچيل يڠ هاڽ مڠندوڠي کمسکيني ترجمهن."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr "ايتم مينو کأوتاماٴن تله دبواڠ دان ببراڤ ترجمهن تله دسرتاکن."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:11
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now"
 " links to the correct binary."
