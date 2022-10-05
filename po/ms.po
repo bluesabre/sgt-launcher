@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020
+# Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <admin@mnh48.moe>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"POT-Creation-Date: 2022-10-04 21:32-0400\n"
 "PO-Revision-Date: 2020-06-10 22:25+0000\n"
-"Last-Translator: Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <mnh48mail@gmail.com>, 2020\n"
+"Last-Translator: Yaya - Nurul Azeera Hidayah @ Muhammad Nur Hidayat Yasuyoshi (MNH48) <admin@mnh48.moe>, 2022\n"
 "Language-Team: Malay (https://www.transifex.com/bluesabreorg/teams/99550/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1
 #: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
-#: ../sgtlauncher/SgtLauncher.py:348
+#: ../sgtlauncher/SgtLauncher.py:389
 msgid "SGT Puzzles Collection"
 msgstr "Himpunan Teka-Teki SGT"
 
@@ -56,20 +56,20 @@ msgstr "Buat Semula"
 msgid "Please wait..."
 msgstr "Sila tunggu…"
 
-#: ../sgtlauncher/SgtLauncher.py:209
+#: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
 msgid "Loading %s"
 msgstr "Memuatkan %s"
 
-#: ../sgtlauncher/SgtLauncher.py:403
+#: ../sgtlauncher/SgtLauncher.py:445
 msgid "About"
 msgstr "Perihal"
 
-#: ../sgtlauncher/SgtLauncher.py:404
+#: ../sgtlauncher/SgtLauncher.py:446
 msgid "Report a Bug..."
 msgstr "Laporkan Pepijat…"
 
-#: ../sgtlauncher/SgtLauncher.py:405
+#: ../sgtlauncher/SgtLauncher.py:447
 msgid "Quit"
 msgstr "Keluar"
 
@@ -99,12 +99,20 @@ msgid "Playing a short game of Galaxies"
 msgstr "Bermain permainan pendek bernama Galaxies"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"This release includes improved support for various desktop environments and "
+"updated translations."
+msgstr ""
+"Terbitan ini menyertakan sokongan yang diperbaik untuk pelbagai sekitaran "
+"atas meja dan kemas kini terjemahan."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid "This release includes some minor fixes and updated translations."
 msgstr ""
 "Terbitan ini mempunyai beberapa pembaikian kecil dan pengemaskinian "
 "terjemahan."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
@@ -112,18 +120,18 @@ msgstr ""
 "Terbitan ini mengetengahkan pelancaran permainan yang ditambahbaik dan "
 "menambah pautan pelaporan pepijat ke dalam menu."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid "This is a minor translations-only release."
 msgstr "Ini terbitan kecil yang hanya mengandungi kemaskini terjemahan."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
 msgstr ""
 "Item menu Keutamaan telah dibuang dan beberapa terjemahan telah disertakan."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:11
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now"
 " links to the correct binary."
