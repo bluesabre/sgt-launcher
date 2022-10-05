@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Sean Davis <sean@bluesabre.org>, 2020
-# Heimen Stoffels <vistausss@outlook.com>, 2020
+# Heimen Stoffels <vistausss@fastmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 06:54-0400\n"
+"POT-Creation-Date: 2022-10-04 21:32-0400\n"
 "PO-Revision-Date: 2020-06-10 22:25+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>, 2020\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/bluesabreorg/teams/99550/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1
 #: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
-#: ../sgtlauncher/SgtLauncher.py:348
+#: ../sgtlauncher/SgtLauncher.py:389
 msgid "SGT Puzzles Collection"
 msgstr "SGT Puzzelverzameling"
 
@@ -57,20 +57,20 @@ msgstr "Opnieuw"
 msgid "Please wait..."
 msgstr "Even geduld..."
 
-#: ../sgtlauncher/SgtLauncher.py:209
+#: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
 msgid "Loading %s"
 msgstr "Bezig met laden van %s"
 
-#: ../sgtlauncher/SgtLauncher.py:403
+#: ../sgtlauncher/SgtLauncher.py:445
 msgid "About"
 msgstr "Over"
 
-#: ../sgtlauncher/SgtLauncher.py:404
+#: ../sgtlauncher/SgtLauncher.py:446
 msgid "Report a Bug..."
 msgstr "Bug melden..."
 
-#: ../sgtlauncher/SgtLauncher.py:405
+#: ../sgtlauncher/SgtLauncher.py:447
 msgid "Quit"
 msgstr "Afsluiten"
 
@@ -99,10 +99,18 @@ msgid "Playing a short game of Galaxies"
 msgstr "Speel een kort Galaxies-spel"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"This release includes improved support for various desktop environments and "
+"updated translations."
+msgstr ""
+"Deze uitgave bevat verbeterde ondersteuning voor de verschillende "
+"werkomgevingen en bijgewerkte vertalingen."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid "This release includes some minor fixes and updated translations."
 msgstr "Deze uitgave bevat kleine foutoplossingen en bijgewerkte vertalingen."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
@@ -110,11 +118,11 @@ msgstr ""
 "Deze uitgave bevat verbeteringen omtrent het opstarten van spellen en een "
 "bugmeldingslink in hen menu."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid "This is a minor translations-only release."
 msgstr "Dit is een kleine uitgave die alleen bijgewerkte vertalingen bevat."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
@@ -122,7 +130,7 @@ msgstr ""
 "Het voorkeurenmenu-item is verwijderd en er zijn verschillende vertalingen "
 "toegevoegd."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:11
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now"
 " links to the correct binary."
