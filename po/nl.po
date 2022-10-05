@@ -60,7 +60,7 @@ msgstr "Even geduld…"
 #: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
 msgid "Loading %s"
-msgstr "Bezig met laden van %s"
+msgstr "Bezig met laden van %s…"
 
 #: ../sgtlauncher/SgtLauncher.py:445
 msgid "About"
