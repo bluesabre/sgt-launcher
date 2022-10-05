@@ -83,7 +83,7 @@ msgid ""
 "Portable Puzzle Collection."
 msgstr ""
 "SGT Puzzles Collection jest prostym w użyciu programem uruchamiającym gry z "
-"kolekcji gier logicznych Simona Tathama."
+"przenośnej kolekcji gier logicznych Simona Tathama."
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
 msgid ""
