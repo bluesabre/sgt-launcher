@@ -68,7 +68,7 @@ msgstr "Over"
 
 #: ../sgtlauncher/SgtLauncher.py:446
 msgid "Report a Bug..."
-msgstr "Bug melden..."
+msgstr "Bug (fout) melden…"
 
 #: ../sgtlauncher/SgtLauncher.py:447
 msgid "Quit"
