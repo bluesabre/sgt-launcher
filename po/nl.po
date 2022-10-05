@@ -55,7 +55,7 @@ msgstr "Opnieuw"
 
 #: ../sgtlauncher/SgtLauncher.py:168
 msgid "Please wait..."
-msgstr "Even geduld..."
+msgstr "Even geduld…"
 
 #: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
 #, python-format
