@@ -4,22 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# albanobattistella <albano_battistella@hotmail.com>, 2021
+# albanobattistella <albano_battistella@hotmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-11 03:38-0700\n"
+"POT-Creation-Date: 2022-10-04 21:32-0400\n"
 "PO-Revision-Date: 2020-06-10 22:25+0000\n"
-"Last-Translator: albanobattistella <albano_battistella@hotmail.com>, 2021\n"
+"Last-Translator: albanobattistella <albano_battistella@hotmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/bluesabreorg/teams/99550/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../org.bluesabre.SgtLauncher.desktop.in.h:1
 #: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
@@ -61,15 +61,15 @@ msgstr "Attendere prego..."
 msgid "Loading %s"
 msgstr "Caricamento in corso %s"
 
-#: ../sgtlauncher/SgtLauncher.py:444
+#: ../sgtlauncher/SgtLauncher.py:445
 msgid "About"
 msgstr "Informazioni"
 
-#: ../sgtlauncher/SgtLauncher.py:445
+#: ../sgtlauncher/SgtLauncher.py:446
 msgid "Report a Bug..."
 msgstr "Segnalare un bug..."
 
-#: ../sgtlauncher/SgtLauncher.py:446
+#: ../sgtlauncher/SgtLauncher.py:447
 msgid "Quit"
 msgstr "Esci"
 
@@ -99,11 +99,19 @@ msgid "Playing a short game of Galaxies"
 msgstr "Giocare a un breve gioco di Galassie"
 
 #: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"This release includes improved support for various desktop environments and "
+"updated translations."
+msgstr ""
+"Questa versione include un supporto migliorato per vari ambienti desktop e "
+"traduzioni aggiornate."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
 msgid "This release includes some minor fixes and updated translations."
 msgstr ""
 "Questa versione include alcune correzioni minori e traduzioni aggiornate."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
 msgid ""
 "This release features improved game launching and adds a bug reporting link "
 "to the menu."
@@ -111,11 +119,11 @@ msgstr ""
 "Questa versione offre un avvio del gioco migliorato e aggiunge un "
 "collegamento per la segnalazione dei bug al menu."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
 msgid "This is a minor translations-only release."
 msgstr "Questa è una versione minore di sole traduzioni."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
 msgid ""
 "The Preferences menu item has been removed and several translations have "
 "been included."
@@ -123,7 +131,7 @@ msgstr ""
 "La voce di menu Preferenze è stata rimossa e sono state incluse diverse "
 "traduzioni."
 
-#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:11
 msgid ""
 "Non-existent launchers are no longer displayed. The application launcher now"
 " links to the correct binary."
