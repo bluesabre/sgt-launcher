@@ -68,7 +68,7 @@ msgstr "Acerca"
 
 #: ../sgtlauncher/SgtLauncher.py:446
 msgid "Report a Bug..."
-msgstr "Reporte um bug..."
+msgstr "Relatar um problema..."
 
 #: ../sgtlauncher/SgtLauncher.py:447
 msgid "Quit"
