@@ -17,6 +17,7 @@ jobs:
     steps:
       # Checkout code
       - uses: actions/checkout@v4.1.0
+      - uses: geertvdc/setup-hub@master
       - name: Install Python 3
         uses: actions/setup-python@v4.7.1
         with:
