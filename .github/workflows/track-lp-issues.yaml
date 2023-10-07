@@ -27,8 +27,8 @@ jobs:
           pip install launchpadlib
       - name: Install hub
         run: |
-          apt-get update
-          apt-get install hub
+          sudo apt-get update
+          sudo apt-get install hub
       - name: Mirror GitHub bugs from Launchpad
         id: getlpbugs
         run: |
