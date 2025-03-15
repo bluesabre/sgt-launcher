@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Warut Bunprasert <warut.b@disroot.org>, 2025
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-04 21:32-0400\n"
+"PO-Revision-Date: 2020-06-10 22:25+0000\n"
+"Last-Translator: Warut Bunprasert <warut.b@disroot.org>, 2025\n"
+"Language-Team: Esperanto (https://app.transifex.com/bluesabreorg/teams/99550/eo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:1
+#: ../sgtlauncher/SgtLauncher.py:39 ../sgtlauncher/SgtLauncher.py:73
+#: ../sgtlauncher/SgtLauncher.py:389
+msgid "SGT Puzzles Collection"
+msgstr "SGT Engimaro"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:2
+msgid "Collection of short puzzle games"
+msgstr "Kolekto de etaj enigmludoj"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:3
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:1
+msgid "Launcher for Simon Tatham's Portable Puzzle Collection"
+msgstr "Lanĉilo por la portebla enigmaro de Simon Tatham"
+
+#: ../org.bluesabre.SgtLauncher.desktop.in.h:4
+msgid "Games;Puzzles;"
+msgstr "Ludoj;Enigmoj;"
+
+#: ../sgtlauncher/SgtLauncher.py:87
+msgid "New Game"
+msgstr "Nova ludo"
+
+#: ../sgtlauncher/SgtLauncher.py:89
+msgid "Undo"
+msgstr "Malfari"
+
+#: ../sgtlauncher/SgtLauncher.py:90
+msgid "Redo"
+msgstr "Refari"
+
+#: ../sgtlauncher/SgtLauncher.py:168
+msgid "Please wait..."
+msgstr "Bonvole atendu..."
+
+#: ../sgtlauncher/SgtLauncher.py:215 ../sgtlauncher/SgtLauncher.py:235
+#, python-format
+msgid "Loading %s"
+msgstr "Ŝarĝas %s"
+
+#: ../sgtlauncher/SgtLauncher.py:445
+msgid "About"
+msgstr "Pri"
+
+#: ../sgtlauncher/SgtLauncher.py:446
+msgid "Report a Bug..."
+msgstr "Raporti cimojn..."
+
+#: ../sgtlauncher/SgtLauncher.py:447
+msgid "Quit"
+msgstr "Forlasi"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:2
+msgid ""
+"SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham's "
+"Portable Puzzle Collection."
+msgstr ""
+"SGT Enigmaro estas simple uzebla lanĉilo por la portebla enigmaro de Simon "
+"Tatham."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:3
+msgid ""
+"The collection is presented as a related but diverse set of logic games. "
+"Each game is displayed in the launcher window with simplified controls."
+msgstr ""
+"La kolekto estas prezentita kiel rilata sed diversa aro de logikaj ludoj. "
+"Ĉiu ludo estas montrata en la lanĉila fenestro kun simpligitaj kontroloj."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:4
+msgid "The launcher window"
+msgstr "La lanĉila fenestro"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:5
+msgid "Playing a short game of Galaxies"
+msgstr "Ludi mallongajn ludojn de Galaksioj"
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:6
+msgid ""
+"This release includes improved support for various desktop environments and "
+"updated translations."
+msgstr ""
+"Ĉi tiu eldono inkluzivas plibonigitan subtenon por diversaj fenstriloj kaj "
+"ĝisdatigitajn tradukojn."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:7
+msgid "This release includes some minor fixes and updated translations."
+msgstr ""
+"Ĉi tiu eldono inkluzivas kelkajn etajn korektojn kaj ĝisdatigitajn "
+"tradukojn."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:8
+msgid ""
+"This release features improved game launching and adds a bug reporting link "
+"to the menu."
+msgstr ""
+"Ĉi tiu eldono prezentas plibonigitan ludlanĉon kaj aldonas ligilon pri "
+"cimraportado al la menuo."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:9
+msgid "This is a minor translations-only release."
+msgstr "Ĉi tio estas eta eldono nur por tradukado."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:10
+msgid ""
+"The Preferences menu item has been removed and several translations have "
+"been included."
+msgstr ""
+"La menuero Preferoj estis forigita kaj pluraj tradukoj estis inkluzivitaj."
+
+#: ../data/metainfo/sgt-launcher.appdata.xml.in.h:11
+msgid ""
+"Non-existent launchers are no longer displayed. The application launcher now"
+" links to the correct binary."
+msgstr ""
+"Ne plu estas montrataj neekzistantaj lanĉiloj. La lanĉilo nun ligas al la "
+"ĝusta duumo."
